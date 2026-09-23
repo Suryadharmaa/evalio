@@ -1,0 +1,19 @@
+﻿dataset,field,missing_count,total_rows,completion_pct,reason
+top200,acceptance_rate,2,200,99.0,Source did not safely establish the field; blank is preserved rather than inferred.
+top200,sat_25,28,200,86.0,Source did not safely establish the field; blank is preserved rather than inferred.
+top200,sat_50,192,200,4.0,Many institutions do not publish a directly reported composite median; no midpoint is inferred.
+top200,sat_75,28,200,86.0,Source did not safely establish the field; blank is preserved rather than inferred.
+top200,act_25,27,200,86.5,Source did not safely establish the field; blank is preserved rather than inferred.
+top200,act_50,189,200,5.5,Many institutions do not publish a directly reported composite median; no midpoint is inferred.
+top200,act_75,27,200,86.5,Source did not safely establish the field; blank is preserved rather than inferred.
+top200,app_fee_usd,105,200,47.5,Batch2 policy/application research currently covers the first 100 schools; remaining schools require Batch2C/2D-style verification.
+top200,estimated_cost_of_attendance_usd,52,200,74.0,Some institutions lack a safely verified annual COA in the current baseline.
+top200,aid_policy_source_url,99,200,50.5,Batch2 policy/application research currently covers the first 100 schools; remaining schools require Batch2C/2D-style verification.
+admissions,international_applicants,12,12,0.0,Left blank unless an international-specific count is explicitly source-labeled.
+admissions,international_admits,12,12,0.0,Left blank unless an international-specific count is explicitly source-labeled.
+admissions,sat_25,4,12,66.7,Source did not safely establish the field; blank is preserved rather than inferred.
+admissions,sat_50,4,12,66.7,Many institutions do not publish a directly reported composite median; no midpoint is inferred.
+admissions,sat_75,4,12,66.7,Source did not safely establish the field; blank is preserved rather than inferred.
+admissions,act_25,1,12,91.7,Source did not safely establish the field; blank is preserved rather than inferred.
+admissions,act_50,1,12,91.7,Many institutions do not publish a directly reported composite median; no midpoint is inferred.
+admissions,act_75,1,12,91.7,Source did not safely establish the field; blank is preserved rather than inferred.

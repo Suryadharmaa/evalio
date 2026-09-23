@@ -1,0 +1,2 @@
+import { ReportManager } from "@/components/report/report-manager";
+export default function ReportsPage() { return <div className="mx-auto w-full max-w-5xl px-5 py-12 sm:px-8 lg:px-12"><p className="text-sm font-semibold text-primary">Structured output</p><h1 className="mt-2 text-4xl font-bold tracking-tight">Reports</h1><p className="mt-3 max-w-2xl leading-7 text-muted">Generate a printable, versioned snapshot without raw essay or recommendation text.</p><ReportManager /></div>; }

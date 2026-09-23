@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lor-01",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-02",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-03",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-04",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-05",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-06",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-07",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-08",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-09",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  },
+  {
+    "id": "lor-10",
+    "result": {
+      "components": {
+        "academic_traits": 45.0,
+        "community_traits": 60.0,
+        "comparative_evidence": 90.0,
+        "generic_praise_control": 100.0,
+        "relationship_context": 70.0,
+        "specific_evidence": 75.0
+      },
+      "confidence": "LOW",
+      "display_score": 73,
+      "engine_version": "2.0.0",
+      "overall_score": 72.75,
+      "rubric_version": "lor-1.0.0",
+      "triggered_rules": [
+        "LOR-003",
+        "LOR-004"
+      ]
+    }
+  }
+]

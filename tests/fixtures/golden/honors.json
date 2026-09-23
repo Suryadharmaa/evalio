@@ -1,0 +1,382 @@
+[
+  {
+    "id": "honor-01",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-02",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-03",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-04",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-05",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-06",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-07",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-08",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-09",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-10",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-11",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-12",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-13",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-14",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-15",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-16",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-17",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-18",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-19",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  },
+  {
+    "id": "honor-20",
+    "result": {
+      "academic_relevance": 10,
+      "confidence": "MEDIUM",
+      "display_score": 42,
+      "engine_version": "2.0.0",
+      "overall_score": 42.0,
+      "placement": 12,
+      "recurrence": 4,
+      "rubric_version": "honor-1.1.0",
+      "scope": 8,
+      "selectivity": 8,
+      "triggered_rules": [
+        "HON-003",
+        "HON-002"
+      ]
+    }
+  }
+]

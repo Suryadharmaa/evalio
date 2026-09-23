@@ -1,0 +1,13 @@
+Source & Status Legend,,
+How Codex / database import should interpret this research package.,,
+,,
+Term,Meaning,Import behavior
+VERIFIED_OFFICIAL,Direct current institutional source supports the value.,Safe to upsert with source provenance.
+VERIFIED_GRID,Current official Common App Requirements Grid supports the value.,Safe baseline; direct institution page overrides if different.
+MEDIUM,"Supported but source may be indirect, older, or policy-specific.",Import with confidence metadata; queue for direct recheck.
+PENDING,Not safely verified in this tranche.,Do not infer or replace with NO/0.
+UNKNOWN,Policy could not be established safely.,Preserve literal UNKNOWN.
+LIMITED,"Some opportunity exists, but no broad/full-need commitment.",Do not normalize to YES or NO without field-level semantics.
+NEED_AWARE,Requesting aid can affect international admission review.,Preserve as categorical policy.
+NEED_BLIND,International financial need is not considered in admission.,Preserve as categorical policy.
+NO_NEED_BASED_AID,No broad institutional need-based aid for international applicants.,Merit aid may still exist.

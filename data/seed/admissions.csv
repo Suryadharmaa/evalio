@@ -1,0 +1,13 @@
+slug,academic_cycle,applicants_total,admits_total,enrolled_total,acceptance_rate,international_applicants,international_admits,sat_25,sat_50,sat_75,act_25,act_50,act_75,test_policy
+harvard-university,2025-26,,,,,,,,,,,,,REQUIRED
+yale-university,2025-26,,,,,,,,,,,,,FLEXIBLE
+princeton-university,2025-26,,,,,,,,,,,,,OPTIONAL
+massachusetts-institute-of-technology,2025-26,,,,,,,,,,,,,REQUIRED
+stanford-university,2025-26,,,,,,,,,,,,,REQUIRED
+california-institute-of-technology,2025-26,,,,,,,,,,,,,REQUIRED
+brown-university,2025-26,,,,,,,,,,,,,REQUIRED
+dartmouth-college,2025-26,,,,,,,,,,,,,REQUIRED
+columbia-university,2025-26,,,,,,,,,,,,,OPTIONAL
+university-of-pennsylvania,2025-26,,,,,,,,,,,,,REQUIRED
+duke-university,2025-26,,,,,,,,,,,,,OPTIONAL
+northwestern-university,2025-26,,,,,,,,,,,,,OPTIONAL

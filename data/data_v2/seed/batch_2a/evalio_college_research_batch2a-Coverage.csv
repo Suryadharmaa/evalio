@@ -1,0 +1,14 @@
+Batch 2A Coverage,,,
+Quick quality/coverage view for this 50-school deep-research tranche.,,,
+,,,
+Metric,Count,Target,Completion
+Institutions in tranche,50,50,100%
+Deadline summary populated,50,50,100%
+Application fee verified/nonblank,47,50,94%
+Test policy populated,50,50,100%
+English requirement populated,50,50,100%
+Teacher recommendation status populated,47,50,94%
+International aid policy non-UNKNOWN,47,50,94%
+Full-need status non-UNKNOWN/PENDING,47,50,94%
+High-confidence rows,46,50,92%
+Open conflicts,1,4,25%

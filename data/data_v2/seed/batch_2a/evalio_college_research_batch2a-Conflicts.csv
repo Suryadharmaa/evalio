@@ -1,0 +1,8 @@
+Research Conflicts & Corrections,,,,,,,
+Fields where previous data conflicted with current official evidence or still require resolution.,,,,,,,
+,,,,,,,
+seed_order,slug,field,current_value,other_observed_value,resolution,status,source_url
+50,texas-a-and-m-university,international_application_fee_usd,90,75 in earlier/general data,Use $90 for current international first-year because current official international admissions page explicitly states $90.,RESOLVED,https://admissions.tamu.edu/apply/international/international-freshman.html
+46,purdue-university,international_application_fee_usd,,0 in Batch 1 source extraction,Do not use $0. Current Purdue page confirms an application fee exists but the exact current international amount was not established in this tranche.,OPEN,https://www.admissions.purdue.edu/apply/criteriafreshmen.php
+25,carnegie-mellon-university,test_policy_2026_27,PROGRAM_DEPENDENT,REQUIRED in Batch 1,Replace single REQUIRED label with program-dependent policy: SCS required; CFA optional; most others test-flexible.,RESOLVED,https://www.cmu.edu/admission/admission/standardized-testing
+5,yale-university,test_policy_2026_27,REQUIRED,Older Yale test-flexible policy,Current Yale page updated in 2026 requires ACT or SAT; use REQUIRED for Fall 2027 first-year applicants.,RESOLVED,https://admissions.yale.edu/standardized-testing

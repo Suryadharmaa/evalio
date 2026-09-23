@@ -1,0 +1,13 @@
+slug,name,ipeds_id,country_code,state_region,institution_type,official_website,common_app_member,active
+harvard-university,Harvard University,166027,US,MA,Private nonprofit,https://www.harvard.edu,true,true
+yale-university,Yale University,130794,US,CT,Private nonprofit,https://www.yale.edu,true,true
+princeton-university,Princeton University,186131,US,NJ,Private nonprofit,https://www.princeton.edu,true,true
+massachusetts-institute-of-technology,Massachusetts Institute of Technology,166683,US,MA,Private nonprofit,https://www.mit.edu,false,true
+stanford-university,Stanford University,243744,US,CA,Private nonprofit,https://www.stanford.edu,true,true
+california-institute-of-technology,California Institute of Technology,110404,US,CA,Private nonprofit,https://www.caltech.edu,true,true
+brown-university,Brown University,217156,US,RI,Private nonprofit,https://www.brown.edu,true,true
+dartmouth-college,Dartmouth College,182670,US,NH,Private nonprofit,https://home.dartmouth.edu,true,true
+columbia-university,Columbia University,190150,US,NY,Private nonprofit,https://www.columbia.edu,true,true
+university-of-pennsylvania,University of Pennsylvania,215062,US,PA,Private nonprofit,https://www.upenn.edu,true,true
+duke-university,Duke University,198419,US,NC,Private nonprofit,https://duke.edu,true,true
+northwestern-university,Northwestern University,147767,US,IL,Private nonprofit,https://www.northwestern.edu,true,true

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lor-01",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 13,
+    "text": "I taught this student for two semesters. During project 1, the student researched evidence and supported the team. Among the strongest students in my 6 years."
+  },
+  {
+    "id": "lor-02",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 14,
+    "text": "I taught this student for two semesters. During project 2, the student researched evidence and supported the team. Among the strongest students in my 7 years."
+  },
+  {
+    "id": "lor-03",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 15,
+    "text": "I taught this student for two semesters. During project 3, the student researched evidence and supported the team. Among the strongest students in my 8 years."
+  },
+  {
+    "id": "lor-04",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 16,
+    "text": "I taught this student for two semesters. During project 4, the student researched evidence and supported the team. Among the strongest students in my 9 years."
+  },
+  {
+    "id": "lor-05",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 17,
+    "text": "I taught this student for two semesters. During project 5, the student researched evidence and supported the team. Among the strongest students in my 10 years."
+  },
+  {
+    "id": "lor-06",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 18,
+    "text": "I taught this student for two semesters. During project 6, the student researched evidence and supported the team. Among the strongest students in my 11 years."
+  },
+  {
+    "id": "lor-07",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 19,
+    "text": "I taught this student for two semesters. During project 7, the student researched evidence and supported the team. Among the strongest students in my 12 years."
+  },
+  {
+    "id": "lor-08",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 20,
+    "text": "I taught this student for two semesters. During project 8, the student researched evidence and supported the team. Among the strongest students in my 13 years."
+  },
+  {
+    "id": "lor-09",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 21,
+    "text": "I taught this student for two semesters. During project 9, the student researched evidence and supported the team. Among the strongest students in my 14 years."
+  },
+  {
+    "id": "lor-10",
+    "recommender_role": "Teacher",
+    "relationship_duration_months": 22,
+    "text": "I taught this student for two semesters. During project 10, the student researched evidence and supported the team. Among the strongest students in my 15 years."
+  }
+]

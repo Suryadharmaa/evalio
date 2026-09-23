@@ -1,0 +1,462 @@
+[
+  {
+    "id": "academic-01",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 72,
+        "term_order": 1
+      },
+      {
+        "average_grade": 73,
+        "term_order": 2
+      },
+      {
+        "average_grade": 74,
+        "term_order": 3
+      },
+      {
+        "average_grade": 75,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-02",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 73,
+        "term_order": 1
+      },
+      {
+        "average_grade": 74,
+        "term_order": 2
+      },
+      {
+        "average_grade": 75,
+        "term_order": 3
+      },
+      {
+        "average_grade": 76,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-03",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 74,
+        "term_order": 1
+      },
+      {
+        "average_grade": 75,
+        "term_order": 2
+      },
+      {
+        "average_grade": 76,
+        "term_order": 3
+      },
+      {
+        "average_grade": 77,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-04",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 75,
+        "term_order": 1
+      },
+      {
+        "average_grade": 76,
+        "term_order": 2
+      },
+      {
+        "average_grade": 77,
+        "term_order": 3
+      },
+      {
+        "average_grade": 78,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-05",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 76,
+        "term_order": 1
+      },
+      {
+        "average_grade": 77,
+        "term_order": 2
+      },
+      {
+        "average_grade": 78,
+        "term_order": 3
+      },
+      {
+        "average_grade": 79,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-06",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 77,
+        "term_order": 1
+      },
+      {
+        "average_grade": 78,
+        "term_order": 2
+      },
+      {
+        "average_grade": 79,
+        "term_order": 3
+      },
+      {
+        "average_grade": 80,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-07",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 78,
+        "term_order": 1
+      },
+      {
+        "average_grade": 79,
+        "term_order": 2
+      },
+      {
+        "average_grade": 80,
+        "term_order": 3
+      },
+      {
+        "average_grade": 81,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-08",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 79,
+        "term_order": 1
+      },
+      {
+        "average_grade": 80,
+        "term_order": 2
+      },
+      {
+        "average_grade": 81,
+        "term_order": 3
+      },
+      {
+        "average_grade": 82,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-09",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 80,
+        "term_order": 1
+      },
+      {
+        "average_grade": 81,
+        "term_order": 2
+      },
+      {
+        "average_grade": 82,
+        "term_order": 3
+      },
+      {
+        "average_grade": 83,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-10",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 81,
+        "term_order": 1
+      },
+      {
+        "average_grade": 82,
+        "term_order": 2
+      },
+      {
+        "average_grade": 83,
+        "term_order": 3
+      },
+      {
+        "average_grade": 84,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-11",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 82,
+        "term_order": 1
+      },
+      {
+        "average_grade": 83,
+        "term_order": 2
+      },
+      {
+        "average_grade": 84,
+        "term_order": 3
+      },
+      {
+        "average_grade": 85,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-12",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 83,
+        "term_order": 1
+      },
+      {
+        "average_grade": 84,
+        "term_order": 2
+      },
+      {
+        "average_grade": 85,
+        "term_order": 3
+      },
+      {
+        "average_grade": 86,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-13",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 84,
+        "term_order": 1
+      },
+      {
+        "average_grade": 85,
+        "term_order": 2
+      },
+      {
+        "average_grade": 86,
+        "term_order": 3
+      },
+      {
+        "average_grade": 87,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-14",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 85,
+        "term_order": 1
+      },
+      {
+        "average_grade": 86,
+        "term_order": 2
+      },
+      {
+        "average_grade": 87,
+        "term_order": 3
+      },
+      {
+        "average_grade": 88,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-15",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 86,
+        "term_order": 1
+      },
+      {
+        "average_grade": 87,
+        "term_order": 2
+      },
+      {
+        "average_grade": 88,
+        "term_order": 3
+      },
+      {
+        "average_grade": 89,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-16",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 87,
+        "term_order": 1
+      },
+      {
+        "average_grade": 88,
+        "term_order": 2
+      },
+      {
+        "average_grade": 89,
+        "term_order": 3
+      },
+      {
+        "average_grade": 90,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-17",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 88,
+        "term_order": 1
+      },
+      {
+        "average_grade": 89,
+        "term_order": 2
+      },
+      {
+        "average_grade": 90,
+        "term_order": 3
+      },
+      {
+        "average_grade": 91,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-18",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 89,
+        "term_order": 1
+      },
+      {
+        "average_grade": 90,
+        "term_order": 2
+      },
+      {
+        "average_grade": 91,
+        "term_order": 3
+      },
+      {
+        "average_grade": 92,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-19",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 90,
+        "term_order": 1
+      },
+      {
+        "average_grade": 91,
+        "term_order": 2
+      },
+      {
+        "average_grade": 92,
+        "term_order": 3
+      },
+      {
+        "average_grade": 93,
+        "term_order": 4
+      }
+    ]
+  },
+  {
+    "id": "academic-20",
+    "scale_max": 100,
+    "scale_min": 0,
+    "terms": [
+      {
+        "average_grade": 71,
+        "term_order": 1
+      },
+      {
+        "average_grade": 72,
+        "term_order": 2
+      },
+      {
+        "average_grade": 73,
+        "term_order": 3
+      },
+      {
+        "average_grade": 74,
+        "term_order": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+﻿slug,academic_cycle,applicants_total,admits_total,enrolled_total,acceptance_rate,international_applicants,international_admits,sat_25,sat_50,sat_75,act_25,act_50,act_75,test_policy
+harvard-university,2025-26,47893,2003,1675,4.18,,,,,,33,35,35,REQUIRED
+yale-university,2025-26,50264,2387,1633,4.75,,,1480,1540,1560,33,34,35,REQUIRED
+princeton-university,2025-26,42303,1868,1408,4.42,,,1490,1530,1560,34,35,35,OPTIONAL
+massachusetts-institute-of-technology,2025-26,29281,1334,1152,4.56,,,1520,1550,1570,34,35,35,REQUIRED
+stanford-university,2025-26,60646,2302,1839,3.80,,,1520,1550,1570,34,35,36,REQUIRED
+california-institute-of-technology,2024-25,13856,356,218,2.57,,,,,,,,,REQUIRED
+brown-university,2025-26,42774,2710,1719,6.34,,,1470,1520,1550,33,35,35,REQUIRED
+dartmouth-college,2025-26,28230,1699,1205,6.02,,,1440,1520,1550,32,34,35,REQUIRED
+columbia-university,2024-25,60247,2325,1483,3.86,,,1510,1540,1560,34,35,36,OPTIONAL
+university-of-pennsylvania,2025-26,72544,3570,2420,4.92,,,,,,34,35,35,REQUIRED
+duke-university,2024-25,51795,2957,1740,5.71,,,,,,34,35,35,OPTIONAL
+northwestern-university,2024-25,49474,3806,2105,7.69,,,1510,1540,1560,34,34,35,OPTIONAL

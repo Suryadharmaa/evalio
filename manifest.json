@@ -1,0 +1,26 @@
+{
+  "package": "Deterministic College Admissions Evaluation Engine \u2014 Web V2",
+  "version": "2.0.0",
+  "deployment": "Vercel",
+  "database_auth": "Supabase",
+  "documents": [
+    "PRD.md",
+    "TECHNICAL_DESIGN.md",
+    "SCORING_SPEC.md",
+    "RULEBOOK.md",
+    "DATA_SPEC.md",
+    "TEST_PLAN.md",
+    "SECURITY.md",
+    "MILESTONE_PLAN.md",
+    "API_SPEC.md",
+    "UI_UX_SPEC.md"
+  ],
+  "hard_constraints": [
+    "No LLM",
+    "No AI API",
+    "No local AI",
+    "No machine learning",
+    "No embeddings",
+    "No vector database"
+  ]
+}

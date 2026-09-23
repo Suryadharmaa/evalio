@@ -1,0 +1,19 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { Alert } from "@/components/ui/alert";
+import { ButtonLink } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { apiError, authenticatedFetch } from "@/lib/api/client";
+
+interface Essay { title: string | null; essay_type: string; raw_text: string | null; content_hash: string; created_at: string }
+interface Evaluation { display_score: number | null; confidence: string; rubric_version: string; components: Record<string, number>; metrics: Record<string, number | null> | null; issues: Array<{ rule_id: string; severity: string; message: string }> }
+export function SavedEssayDetail({ essayId }: { essayId: string }) {
+  const [essay, setEssay] = useState<Essay | null>(null);
+  const [evaluation, setEvaluation] = useState<Evaluation | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  useEffect(() => { void (async () => { try { const profiles = await authenticatedFetch("/api/v1/profiles"); if (!profiles.ok) throw new Error(await apiError(profiles)); const profile = ((await profiles.json()) as { data: { id: string }[] }).data[0]; if (!profile) throw new Error("Profile not found."); const response = await authenticatedFetch(`/api/v1/profiles/${profile.id}/essays/${encodeURIComponent(essayId)}`); if (!response.ok) throw new Error(await apiError(response)); const data = ((await response.json()) as { data: { essay: Essay; evaluation: Evaluation | null } }).data; setEssay(data.essay); setEvaluation(data.evaluation); } catch (reason) { setError(reason instanceof Error ? reason.message : "Unable to load essay."); } })(); }, [essayId]);
+  if (error) return <Alert className="mt-8" title="Unable to load essay" tone="danger">{error}</Alert>;
+  if (!essay) return <p className="mt-8 text-muted">Loading saved essay…</p>;
+  return <div className="mt-8 grid gap-5"><Card className="p-6"><p className="text-sm text-muted">{essay.essay_type} · {new Date(essay.created_at).toLocaleDateString()}</p><h1 className="mt-2 text-3xl font-bold">{essay.title || "Untitled draft"}</h1>{essay.raw_text ? <pre className="mt-6 whitespace-pre-wrap font-sans leading-7">{essay.raw_text}</pre> : <Alert className="mt-6" title="Metrics-only record">Raw text was not saved. This privacy choice cannot be reversed.</Alert>}<p className="mt-6 break-all text-xs text-muted">Content hash: {essay.content_hash}</p></Card>{evaluation ? <Card className="p-6"><div className="flex flex-wrap items-center justify-between gap-3"><div><p className="text-sm text-muted">Saved Mechanical Essay Score</p><p className="mt-1 text-4xl font-bold">{evaluation.display_score ?? "N/A"}<span className="text-base text-muted"> / 100</span></p><p className="mt-2 text-sm">Confidence: {evaluation.confidence} · {evaluation.rubric_version}</p></div><ButtonLink href="/methodology/essay" variant="secondary">Why this result?</ButtonLink></div><div className="mt-6 grid gap-5 md:grid-cols-2"><div><h2 className="font-semibold">Components</h2><dl className="mt-3 grid gap-2">{Object.entries(evaluation.components).map(([name, score]) => <div className="flex justify-between gap-3 border-b border-border pb-2" key={name}><dt className="capitalize text-muted">{name.replaceAll("_", " ")}</dt><dd>{Math.round(score)}</dd></div>)}</dl></div><div><h2 className="font-semibold">Stored metrics</h2><pre className="mt-3 overflow-auto whitespace-pre-wrap rounded-lg bg-[var(--surface-muted)] p-4 text-xs">{JSON.stringify(evaluation.metrics, null, 2)}</pre></div></div>{evaluation.issues.length ? <div className="mt-6"><h2 className="font-semibold">Triggered rules</h2><ul className="mt-3 grid gap-2">{evaluation.issues.map((issue) => <li className="rounded-lg border border-border p-3 text-sm" key={issue.rule_id}><strong>{issue.severity} · {issue.rule_id}</strong><p className="mt-1 text-muted">{issue.message}</p></li>)}</ul></div> : null}</Card> : null}</div>;
+}

@@ -1,0 +1,34 @@
+.workspace { display: grid; gap: 1.5rem; align-items: start; margin-top: 3rem; }
+.workspace > * { min-width: 0; }
+.editorCard { overflow: hidden; }
+.cardHeader { padding: 1.5rem; border-bottom: 1px solid var(--border); }
+.editorBody { padding: 1.5rem; }
+.editor { min-height: 30rem; line-height: 1.8; }
+.editorFooter { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding-top: 1rem; font-size: .875rem; font-weight: 650; }
+.results { display: grid; gap: 1rem; align-content: start; }
+.loadingCard { padding: 1.5rem; }
+.progressNumber { margin: 1.5rem 0 .75rem; font-size: clamp(3.5rem, 7vw, 5rem); font-weight: 750; letter-spacing: -.07em; line-height: 1; font-variant-numeric: tabular-nums; }
+.progressTrack { display: block; height: .55rem; width: 100%; overflow: hidden; border: 0; border-radius: 99px; background: var(--surface-soft); appearance: none; }
+.progressTrack::-webkit-progress-bar { border-radius: 99px; background: var(--surface-soft); }
+.progressTrack::-webkit-progress-value { border-radius: 99px; background: var(--primary); transition: width 180ms linear; }
+.progressTrack::-moz-progress-bar { border-radius: 99px; background: var(--primary); }
+.scoreCard { padding: 1.75rem; background: var(--primary-ink, var(--foreground)); color: white; }
+.score { margin-top: 1rem; font-size: clamp(4rem, 8vw, 5.5rem); font-weight: 750; line-height: 1; letter-spacing: -.075em; font-variant-numeric: tabular-nums; }
+.score span { font-size: 1rem; letter-spacing: 0; color: rgb(255 255 255 / .75); }
+.categoryList { border-top: 1px solid var(--border); }
+.category { border-bottom: 1px solid var(--border); }
+.category:last-child { border-bottom: 0; }
+.category summary { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 1.25rem; cursor: pointer; list-style: none; font-size: .9rem; }
+.category summary::-webkit-details-marker { display: none; }
+.category summary:hover { background: var(--surface-soft); }
+.category strong { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.insightGrid { display: grid; gap: 1rem; }
+.insightList { display: grid; gap: .65rem; margin-top: 1rem; font-size: .875rem; line-height: 1.6; }
+.signalGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem 1rem; margin-top: 1.2rem; }
+.signalGrid div { display: flex; flex-direction: column; gap: .25rem; padding-top: .65rem; border-top: 1px solid var(--border); font-size: .8rem; }
+.signalGrid span { color: var(--muted-foreground, var(--muted)); }
+.signalGrid strong { font-size: .95rem; font-variant-numeric: tabular-nums; }
+@media (min-width: 1024px) { .workspace { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); } .results { max-height: calc(100dvh - 8rem); overflow: auto; position: sticky; top: 7rem; padding: 0 .25rem .25rem; } }
+@media (min-width: 640px) { .insightGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .editorBody, .cardHeader { padding: 1rem; } .editor { min-height: 24rem; } .signalGrid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .progressTrack::-webkit-progress-value { transition: none; } }

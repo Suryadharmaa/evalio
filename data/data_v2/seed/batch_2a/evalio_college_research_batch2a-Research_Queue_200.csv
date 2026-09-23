@@ -1,0 +1,204 @@
+Batch 2 Research Queue,,,,,
+All 200 schools split into 2A/2B/2C/2D. Only 2A is deeply researched in this package.,,,,,
+,,,,,
+seed_order,slug,school_name,tranche,status,priority_fields
+1,princeton-university,Princeton University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+2,massachusetts-institute-of-technology,Massachusetts Institute of Technology,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+3,harvard-university,Harvard University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+4,stanford-university,Stanford University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+5,yale-university,Yale University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+6,university-of-pennsylvania,University of Pennsylvania,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+7,california-institute-of-technology,California Institute of Technology,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+8,duke-university,Duke University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+9,brown-university,Brown University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+10,johns-hopkins-university,Johns Hopkins University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+11,northwestern-university,Northwestern University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+12,columbia-university,Columbia University in the City of New York,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+13,cornell-university,Cornell University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+14,university-of-chicago,University of Chicago,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+15,university-of-california-berkeley,University of California-Berkeley,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+16,university-of-california-los-angeles,University of California-Los Angeles,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+17,rice-university,Rice University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+18,dartmouth-college,Dartmouth College,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+19,vanderbilt-university,Vanderbilt University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+20,university-of-notre-dame,University of Notre Dame,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+21,university-of-michiganann-arbor,University of Michigan-Ann Arbor,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+22,georgetown-university,Georgetown University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+23,university-of-virginia,University of Virginia-Main Campus,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+24,washington-university-in-st-louis,Washington University in St Louis,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+25,carnegie-mellon-university,Carnegie Mellon University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+26,emory-university,Emory University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+27,university-of-southern-california,University of Southern California,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+28,university-of-california-san-diego,University of California-San Diego,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+29,university-of-florida,University of Florida,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+30,university-of-california-davis,University of California-Davis,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+31,university-of-texas-at-austin,The University of Texas at Austin,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+32,university-of-california-irvine,University of California-Irvine,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+33,georgia-institute-of-technology,Georgia Institute of Technology-Main Campus,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+34,university-of-california-santa-barbara,University of California-Santa Barbara,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+35,university-of-illinois-urbana-champaign,University of Illinois Urbana-Champaign,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+36,university-of-wisconsinmadison,University of Wisconsin-Madison,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+37,new-york-university,New York University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+38,boston-college,Boston College,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+39,university-of-washington,University of Washington-Seattle Campus,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+40,tufts-university,Tufts University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+41,rutgers-universitynew-brunswick,Rutgers University-New Brunswick,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+42,boston-university,Boston University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+43,the-ohio-state-university,Ohio State University-Main Campus,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+44,university-of-maryland-college-park,University of Maryland-College Park,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+45,university-of-rochester,University of Rochester,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+46,purdue-university,Purdue University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+47,university-of-north-carolina-at-chapel-hill,University of North Carolina at Chapel Hill,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+48,wake-forest-university,Wake Forest University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+49,virginia-tech,Virginia Polytechnic Institute and State University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+50,texas-a-and-m-university,Texas A&M University,2A,RESEARCHED_THIS_PACKAGE,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+51,florida-state-university,Florida State University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+52,northeastern-university,Northeastern University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+53,case-western-reserve-university,Case Western Reserve University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+54,tulane-university,Tulane University of Louisiana,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+55,university-of-miami,University of Miami,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+56,university-of-georgia,University of Georgia,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+57,lehigh-university,Lehigh University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+58,villanova-university,Villanova University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+59,rensselaer-polytechnic-institute,Rensselaer Polytechnic Institute,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+60,brandeis-university,Brandeis University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+61,william-and-mary,William & Mary,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+62,clemson-university,Clemson University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+63,southern-methodist-university,Southern Methodist University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+64,george-washington-university,George Washington University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+65,pennsylvania-state-university,Pennsylvania State University-Main Campus,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+66,university-of-minnesota-twin-cities,University of Minnesota-Twin Cities,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+67,indiana-university-bloomington,Indiana University-Bloomington,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+68,michigan-state-university,Michigan State University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+69,north-carolina-state-university,North Carolina State University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+70,university-of-california-santa-cruz,University of California-Santa Cruz,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+71,university-of-california-riverside,University of California-Riverside,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+72,university-of-colorado-boulder,University of Colorado Boulder,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+73,university-of-connecticut,University of Connecticut,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+74,university-of-pittsburgh,University of Pittsburgh-Pittsburgh Campus,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+75,syracuse-university,Syracuse University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+76,american-university,American University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+77,baylor-university,Baylor University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+78,texas-christian-university,Texas Christian University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+79,santa-clara-university,Santa Clara University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+80,pepperdine-university,Pepperdine University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+81,fordham-university,Fordham University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+82,stevens-institute-of-technology,Stevens Institute of Technology,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+83,worcester-polytechnic-institute,Worcester Polytechnic Institute,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+84,drexel-university,Drexel University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+85,rochester-institute-of-technology,Rochester Institute of Technology,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+86,stony-brook-university,Stony Brook University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+87,binghamton-university,Binghamton University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+88,university-at-buffalo,University at Buffalo,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+89,university-of-delaware,University of Delaware,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+90,university-of-massachusetts-amherst,University of Massachusetts-Amherst,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+91,university-of-iowa,University of Iowa,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+92,university-of-arizona,University of Arizona,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+93,arizona-state-university,Arizona State University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+94,university-of-oregon,University of Oregon,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+95,oregon-state-university,Oregon State University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+96,university-of-utah,University of Utah,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+97,brigham-young-university,Brigham Young University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+98,colorado-school-of-mines,Colorado School of Mines,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+99,auburn-university,Auburn University,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+100,university-of-tennessee-knoxville,The University of Tennessee-Knoxville,2B,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+101,university-of-alabama,The University of Alabama,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+102,university-of-kentucky,University of Kentucky,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+103,university-of-cincinnati,University of Cincinnati-Main Campus,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+104,university-of-houston,University of Houston,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+105,university-of-south-florida,University of South Florida,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+106,university-of-central-florida,University of Central Florida,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+107,florida-international-university,Florida International University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+108,florida-atlantic-university,Florida Atlantic University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+109,george-mason-university,George Mason University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+110,virginia-commonwealth-university,Virginia Commonwealth University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+111,james-madison-university,James Madison University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+112,university-of-north-carolina-at-charlotte,University of North Carolina at Charlotte,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+113,university-of-north-carolina-wilmington,University of North Carolina Wilmington,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+114,san-diego-state-university,San Diego State University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+115,california-polytechnic-state-university-san-luis-obispo,California Polytechnic State University-San Luis Obispo,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+116,san-jose-state-university,San Jose State University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+117,california-state-university-long-beach,California State University-Long Beach,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+118,california-state-university-fullerton,California State University-Fullerton,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+119,university-of-california-merced,University of California-Merced,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+120,loyola-marymount-university,Loyola Marymount University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+121,university-of-san-francisco,University of San Francisco,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+122,chapman-university,Chapman University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+123,university-of-denver,University of Denver,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+124,gonzaga-university,Gonzaga University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+125,seattle-university,Seattle University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+126,university-of-portland,University of Portland,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+127,williams-college,Williams College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+128,amherst-college,Amherst College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+129,swarthmore-college,Swarthmore College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+130,pomona-college,Pomona College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+131,wellesley-college,Wellesley College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+132,bowdoin-college,Bowdoin College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+133,claremont-mckenna-college,Claremont McKenna College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+134,carleton-college,Carleton College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+135,middlebury-college,Middlebury College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+136,barnard-college,Barnard College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+137,harvey-mudd-college,Harvey Mudd College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+138,wesleyan-university,Wesleyan University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+139,grinnell-college,Grinnell College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+140,hamilton-college,Hamilton College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+141,haverford-college,Haverford College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+142,smith-college,Smith College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+143,vassar-college,Vassar College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+144,colgate-university,Colgate University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+145,davidson-college,Davidson College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+146,washington-and-lee-university,Washington and Lee University,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+147,colby-college,Colby College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+148,bates-college,Bates College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+149,macalester-college,Macalester College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+150,scripps-college,Scripps College,2C,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+151,bryn-mawr-college,Bryn Mawr College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+152,bucknell-university,Bucknell University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+153,lafayette-college,Lafayette College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+154,college-of-the-holy-cross,College of the Holy Cross,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+155,university-of-richmond,University of Richmond,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+156,denison-university,Denison University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+157,kenyon-college,Kenyon College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+158,occidental-college,Occidental College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+159,skidmore-college,Skidmore College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+160,trinity-college,Trinity College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+161,connecticut-college,Connecticut College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+162,oberlin-college,Oberlin College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+163,pitzer-college,Pitzer College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+164,colorado-college,Colorado College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+165,rhodes-college,Rhodes College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+166,sewanee-the-university-of-the-south,The University of the South,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+167,furman-university,Furman University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+168,whitman-college,Whitman College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+169,franklin-and-marshall-college,Franklin and Marshall College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+170,gettysburg-college,Gettysburg College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+171,dickinson-college,Dickinson College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+172,depauw-university,DePauw University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+173,college-of-wooster,The College of Wooster,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+174,lawrence-university,Lawrence University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+175,kalamazoo-college,Kalamazoo College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+176,st-olaf-college,St Olaf College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+177,gustavus-adolphus-college,Gustavus Adolphus College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+178,union-college,Union College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+179,reed-college,Reed College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+180,mount-holyoke-college,Mount Holyoke College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+181,spelman-college,Spelman College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+182,morehouse-college,Morehouse College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+183,sarah-lawrence-college,Sarah Lawrence College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+184,bard-college,Bard College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+185,centre-college,Centre College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+186,berea-college,Berea College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+187,trinity-university,Trinity University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+188,babson-college,Babson College,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+189,bentley-university,Bentley University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+190,franklin-w-olin-college-of-engineering,Franklin W Olin College of Engineering,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+191,the-cooper-union,The Cooper Union for the Advancement of Science and Art,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+192,rose-hulman-institute-of-technology,Rose-Hulman Institute of Technology,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+193,rhode-island-school-of-design,Rhode Island School of Design,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+194,berklee-college-of-music,Berklee College of Music,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+195,the-juilliard-school,The Juilliard School,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+196,school-of-the-art-institute-of-chicago,School of the Art Institute of Chicago,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+197,howard-university,Howard University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+198,loyola-university-chicago,Loyola University Chicago,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+199,marquette-university,Marquette University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources
+200,samford-university,Samford University,2D,QUEUED,Intl aid; English; deadlines; fee; recommendations; supplements; aid forms; official sources

@@ -1,0 +1,3 @@
+import { ButtonLink } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+export default function AdminCollegesPage() { return <div className="mx-auto w-full max-w-4xl px-5 py-12 sm:px-8"><h1 className="text-4xl font-bold">College data</h1><Card className="mt-8 p-6"><p className="leading-7 text-muted">College records are promoted through the reviewed staging pipeline. Public-site scraping is intentionally disabled.</p><div className="mt-5 flex gap-3"><ButtonLink href="/admin/imports">Open imports</ButtonLink><ButtonLink href="/colleges" variant="secondary">Review public data</ButtonLink></div></Card></div>; }

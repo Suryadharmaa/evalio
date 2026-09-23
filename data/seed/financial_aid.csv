@@ -1,0 +1,13 @@
+slug,academic_cycle,need_policy,international_need_based_aid,meets_full_demonstrated_need,css_profile_required,estimated_cost_of_attendance,tuition,room_board,books_personal,currency,notes
+harvard-university,2025-26,NEED_BLIND,true,true,true,,,,,USD,Confirm current requirements with the institution.
+yale-university,2025-26,NEED_BLIND,true,true,true,,,,,USD,Confirm current requirements with the institution.
+princeton-university,2025-26,NEED_BLIND,true,true,false,,,,,USD,Confirm current requirements with the institution.
+massachusetts-institute-of-technology,2025-26,NEED_BLIND,true,true,true,,,,,USD,Confirm current requirements with the institution.
+stanford-university,2025-26,NEED_AWARE,true,true,true,,,,,USD,International admission is need-aware.
+california-institute-of-technology,2025-26,NEED_AWARE,true,true,true,,,,,USD,International admission is need-aware.
+brown-university,2025-26,NEED_BLIND,true,true,true,,,,,USD,Confirm current requirements with the institution.
+dartmouth-college,2025-26,NEED_BLIND,true,true,true,,,,,USD,Confirm current requirements with the institution.
+columbia-university,2025-26,NEED_AWARE,true,true,true,,,,,USD,International admission is need-aware.
+university-of-pennsylvania,2025-26,NEED_AWARE,true,true,true,,,,,USD,International admission is need-aware.
+duke-university,2025-26,NEED_AWARE,true,true,true,,,,,USD,International admission is need-aware.
+northwestern-university,2025-26,NEED_AWARE,true,true,true,,,,,USD,International admission is need-aware.

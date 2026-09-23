@@ -1,0 +1,568 @@
+[
+  {
+    "id": "college-01",
+    "result": {
+      "academic_alignment": 61.0,
+      "application_strength": 59.29,
+      "components": {
+        "academics": 61.0,
+        "activities": 56.0,
+        "essay": 61.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is extreme.",
+        "Academic alignment is 61/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "EXTREME",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003",
+        "COL-004"
+      ]
+    }
+  },
+  {
+    "id": "college-02",
+    "result": {
+      "academic_alignment": 62.0,
+      "application_strength": 60.29,
+      "components": {
+        "academics": 62.0,
+        "activities": 57.0,
+        "essay": 62.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is extreme.",
+        "Academic alignment is 62/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "EXTREME",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003",
+        "COL-004"
+      ]
+    }
+  },
+  {
+    "id": "college-03",
+    "result": {
+      "academic_alignment": 63.0,
+      "application_strength": 61.29,
+      "components": {
+        "academics": 63.0,
+        "activities": 58.0,
+        "essay": 63.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is extreme.",
+        "Academic alignment is 63/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "EXTREME",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003",
+        "COL-004"
+      ]
+    }
+  },
+  {
+    "id": "college-04",
+    "result": {
+      "academic_alignment": 64.0,
+      "application_strength": 62.29,
+      "components": {
+        "academics": 64.0,
+        "activities": 59.0,
+        "essay": 64.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is extreme.",
+        "Academic alignment is 64/100."
+      ],
+      "requirements_fit": "INCOMPLETE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "EXTREME",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003",
+        "COL-004",
+        "COL-006"
+      ]
+    }
+  },
+  {
+    "id": "college-05",
+    "result": {
+      "academic_alignment": 65.0,
+      "application_strength": 63.29,
+      "components": {
+        "academics": 65.0,
+        "activities": 60.0,
+        "essay": 65.0
+      },
+      "confidence": "MEDIUM",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Missing or unknown CDS factors reduce application-strength confidence.",
+        "Institution-level selectivity is very high.",
+        "Academic alignment is 65/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "VERY_HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-008",
+        "COL-003"
+      ]
+    }
+  },
+  {
+    "id": "college-06",
+    "result": {
+      "academic_alignment": 66.0,
+      "application_strength": 64.29,
+      "components": {
+        "academics": 66.0,
+        "activities": 61.0,
+        "essay": 66.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is very high.",
+        "Academic alignment is 66/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "VERY_HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003"
+      ]
+    }
+  },
+  {
+    "id": "college-07",
+    "result": {
+      "academic_alignment": 67.0,
+      "application_strength": 65.29,
+      "components": {
+        "academics": 67.0,
+        "activities": 62.0,
+        "essay": 67.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is very high.",
+        "Academic alignment is 67/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "VERY_HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003"
+      ]
+    }
+  },
+  {
+    "id": "college-08",
+    "result": {
+      "academic_alignment": 68.0,
+      "application_strength": 66.29,
+      "components": {
+        "academics": 68.0,
+        "activities": 63.0,
+        "essay": 68.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is very high.",
+        "Academic alignment is 68/100."
+      ],
+      "requirements_fit": "INCOMPLETE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "VERY_HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003",
+        "COL-006"
+      ]
+    }
+  },
+  {
+    "id": "college-09",
+    "result": {
+      "academic_alignment": 69.0,
+      "application_strength": 67.29,
+      "components": {
+        "academics": 69.0,
+        "activities": 64.0,
+        "essay": 69.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "HIGH_REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is very high.",
+        "Academic alignment is 69/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "VERY_HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-003"
+      ]
+    }
+  },
+  {
+    "id": "college-10",
+    "result": {
+      "academic_alignment": 70.0,
+      "application_strength": 68.29,
+      "components": {
+        "academics": 70.0,
+        "activities": 65.0,
+        "essay": 70.0
+      },
+      "confidence": "MEDIUM",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Missing or unknown CDS factors reduce application-strength confidence.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 70/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-008"
+      ]
+    }
+  },
+  {
+    "id": "college-11",
+    "result": {
+      "academic_alignment": 71.0,
+      "application_strength": 69.29,
+      "components": {
+        "academics": 71.0,
+        "activities": 66.0,
+        "essay": 71.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 71/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007"
+      ]
+    }
+  },
+  {
+    "id": "college-12",
+    "result": {
+      "academic_alignment": 72.0,
+      "application_strength": 70.29,
+      "components": {
+        "academics": 72.0,
+        "activities": 67.0,
+        "essay": 72.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 72/100."
+      ],
+      "requirements_fit": "INCOMPLETE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-006"
+      ]
+    }
+  },
+  {
+    "id": "college-13",
+    "result": {
+      "academic_alignment": 73.0,
+      "application_strength": 71.29,
+      "components": {
+        "academics": 73.0,
+        "activities": 68.0,
+        "essay": 73.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 73/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007"
+      ]
+    }
+  },
+  {
+    "id": "college-14",
+    "result": {
+      "academic_alignment": 74.0,
+      "application_strength": 72.29,
+      "components": {
+        "academics": 74.0,
+        "activities": 69.0,
+        "essay": 74.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 74/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007"
+      ]
+    }
+  },
+  {
+    "id": "college-15",
+    "result": {
+      "academic_alignment": 75.0,
+      "application_strength": 73.29,
+      "components": {
+        "academics": 75.0,
+        "activities": 70.0,
+        "essay": 75.0
+      },
+      "confidence": "MEDIUM",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Missing or unknown CDS factors reduce application-strength confidence.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 75/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-008"
+      ]
+    }
+  },
+  {
+    "id": "college-16",
+    "result": {
+      "academic_alignment": 76.0,
+      "application_strength": 74.29,
+      "components": {
+        "academics": 76.0,
+        "activities": 71.0,
+        "essay": 76.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 76/100."
+      ],
+      "requirements_fit": "INCOMPLETE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-006"
+      ]
+    }
+  },
+  {
+    "id": "college-17",
+    "result": {
+      "academic_alignment": 77.0,
+      "application_strength": 75.29,
+      "components": {
+        "academics": 77.0,
+        "activities": 72.0,
+        "essay": 77.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 77/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007"
+      ]
+    }
+  },
+  {
+    "id": "college-18",
+    "result": {
+      "academic_alignment": 78.0,
+      "application_strength": 76.29,
+      "components": {
+        "academics": 78.0,
+        "activities": 73.0,
+        "essay": 78.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 78/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007"
+      ]
+    }
+  },
+  {
+    "id": "college-19",
+    "result": {
+      "academic_alignment": 79.0,
+      "application_strength": 77.29,
+      "components": {
+        "academics": 79.0,
+        "activities": 74.0,
+        "essay": 79.0
+      },
+      "confidence": "HIGH",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "REACH",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Institution-level selectivity is high.",
+        "Academic alignment is 79/100."
+      ],
+      "requirements_fit": "COMPATIBLE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "HIGH",
+      "triggered_rules": [
+        "COL-007"
+      ]
+    }
+  },
+  {
+    "id": "college-20",
+    "result": {
+      "academic_alignment": 80.0,
+      "application_strength": 78.29,
+      "components": {
+        "academics": 80.0,
+        "activities": 75.0,
+        "essay": 80.0
+      },
+      "confidence": "MEDIUM",
+      "confidence_score": 88,
+      "engine_version": "2.0.0",
+      "planning_category": "COMPETITIVE",
+      "reasons": [
+        "Application strength uses published CDS importance mapped to internal weights.",
+        "Missing or unknown CDS factors reduce application-strength confidence.",
+        "Institution-level selectivity is moderate high.",
+        "Academic alignment is 80/100."
+      ],
+      "requirements_fit": "INCOMPLETE",
+      "rubric_version": "college-1.1.0",
+      "selectivity_risk": "MODERATE_HIGH",
+      "triggered_rules": [
+        "COL-007",
+        "COL-008",
+        "COL-006"
+      ]
+    }
+  }
+]

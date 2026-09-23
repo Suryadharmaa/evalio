@@ -1,0 +1,402 @@
+[
+  {
+    "academic_strength": 61,
+    "acceptance_rate": 0.01,
+    "application_components": {
+      "activities": 56,
+      "essay": 61
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-01",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 62,
+    "acceptance_rate": 0.02,
+    "application_components": {
+      "activities": 57,
+      "essay": 62
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-02",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 63,
+    "acceptance_rate": 0.03,
+    "application_components": {
+      "activities": 58,
+      "essay": 63
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-03",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 64,
+    "acceptance_rate": 0.04,
+    "application_components": {
+      "activities": 59,
+      "essay": 64
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-04",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": false,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 65,
+    "acceptance_rate": 0.05,
+    "application_components": {
+      "activities": 60,
+      "essay": 65
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "UNKNOWN"
+    },
+    "college_data_completeness": 18,
+    "id": "college-05",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 66,
+    "acceptance_rate": 0.06,
+    "application_components": {
+      "activities": 61,
+      "essay": 66
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-06",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 67,
+    "acceptance_rate": 0.07,
+    "application_components": {
+      "activities": 62,
+      "essay": 67
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-07",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 68,
+    "acceptance_rate": 0.08,
+    "application_components": {
+      "activities": 63,
+      "essay": 68
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-08",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": false,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 69,
+    "acceptance_rate": 0.09,
+    "application_components": {
+      "activities": 64,
+      "essay": 69
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-09",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 70,
+    "acceptance_rate": 0.1,
+    "application_components": {
+      "activities": 65,
+      "essay": 70
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "UNKNOWN"
+    },
+    "college_data_completeness": 18,
+    "id": "college-10",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 71,
+    "acceptance_rate": 0.11,
+    "application_components": {
+      "activities": 66,
+      "essay": 71
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-11",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 72,
+    "acceptance_rate": 0.12,
+    "application_components": {
+      "activities": 67,
+      "essay": 72
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-12",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": false,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 73,
+    "acceptance_rate": 0.13,
+    "application_components": {
+      "activities": 68,
+      "essay": 73
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-13",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 74,
+    "acceptance_rate": 0.14,
+    "application_components": {
+      "activities": 69,
+      "essay": 74
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-14",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 75,
+    "acceptance_rate": 0.15,
+    "application_components": {
+      "activities": 70,
+      "essay": 75
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "UNKNOWN"
+    },
+    "college_data_completeness": 18,
+    "id": "college-15",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 76,
+    "acceptance_rate": 0.16,
+    "application_components": {
+      "activities": 71,
+      "essay": 76
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-16",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": false,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 77,
+    "acceptance_rate": 0.17,
+    "application_components": {
+      "activities": 72,
+      "essay": 77
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-17",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 78,
+    "acceptance_rate": 0.18,
+    "application_components": {
+      "activities": 73,
+      "essay": 78
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-18",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 79,
+    "acceptance_rate": 0.19,
+    "application_components": {
+      "activities": 74,
+      "essay": 79
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "NOT_CONSIDERED"
+    },
+    "college_data_completeness": 18,
+    "id": "college-19",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": true,
+    "source_freshness_points": 22
+  },
+  {
+    "academic_strength": 80,
+    "acceptance_rate": 0.2,
+    "application_components": {
+      "activities": 75,
+      "essay": 80
+    },
+    "cds_importance": {
+      "academics": "VERY_IMPORTANT",
+      "activities": "IMPORTANT",
+      "essay": "CONSIDERED",
+      "recommendations": "UNKNOWN"
+    },
+    "college_data_completeness": 18,
+    "id": "college-20",
+    "metric_reliability": 18,
+    "profile_completeness": 30,
+    "required_materials_complete": false,
+    "source_freshness_points": 22
+  }
+]

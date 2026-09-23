@@ -1,0 +1,402 @@
+[
+  {
+    "id": "academic-01",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 74.2,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 77,
+      "engine_version": "2.0.0",
+      "overall_score": 77.07,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-02",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 75.4,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 78,
+      "engine_version": "2.0.0",
+      "overall_score": 78.05,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-03",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 76.6,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 79,
+      "engine_version": "2.0.0",
+      "overall_score": 79.04,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-04",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 77.8,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 80,
+      "engine_version": "2.0.0",
+      "overall_score": 80.02,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-05",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 79.0,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 81,
+      "engine_version": "2.0.0",
+      "overall_score": 81.0,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-06",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 80.2,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 82,
+      "engine_version": "2.0.0",
+      "overall_score": 81.98,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-07",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 81.4,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 83,
+      "engine_version": "2.0.0",
+      "overall_score": 82.96,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-08",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 82.6,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 84,
+      "engine_version": "2.0.0",
+      "overall_score": 83.95,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-09",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 83.8,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 85,
+      "engine_version": "2.0.0",
+      "overall_score": 84.93,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-10",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 85.0,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 86,
+      "engine_version": "2.0.0",
+      "overall_score": 85.91,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-11",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 86.2,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 87,
+      "engine_version": "2.0.0",
+      "overall_score": 86.89,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-12",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 87.4,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "overall_score": 87.87,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-13",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 88.6,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 89,
+      "engine_version": "2.0.0",
+      "overall_score": 88.85,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-14",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 89.8,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 90,
+      "engine_version": "2.0.0",
+      "overall_score": 89.84,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-15",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 91.0,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 91,
+      "engine_version": "2.0.0",
+      "overall_score": 90.82,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-16",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 92.2,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 92,
+      "engine_version": "2.0.0",
+      "overall_score": 91.8,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-17",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 93.4,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 93,
+      "engine_version": "2.0.0",
+      "overall_score": 92.78,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-18",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 94.6,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 94,
+      "engine_version": "2.0.0",
+      "overall_score": 93.76,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-19",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 95.8,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 95,
+      "engine_version": "2.0.0",
+      "overall_score": 94.75,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  },
+  {
+    "id": "academic-20",
+    "result": {
+      "components": {
+        "context": null,
+        "major_preparation": null,
+        "performance": 73.0,
+        "rigor": null,
+        "trend": 90.0
+      },
+      "confidence": "HIGH",
+      "display_score": 76,
+      "engine_version": "2.0.0",
+      "overall_score": 76.09,
+      "rigor_details": null,
+      "rubric_version": "academic-1.1.0",
+      "trend_slope": 1.0,
+      "triggered_rules": []
+    }
+  }
+]

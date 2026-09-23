@@ -1,0 +1,462 @@
+[
+  {
+    "id": "activities-01",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 58,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 8,
+          "impact": 11,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 58
+        }
+      ],
+      "portfolio_score": 58.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-02",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 58,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 8,
+          "impact": 11,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 58
+        }
+      ],
+      "portfolio_score": 58.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-03",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 58,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 8,
+          "impact": 11,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 58
+        }
+      ],
+      "portfolio_score": 58.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-04",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 58,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 8,
+          "impact": 11,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 58
+        }
+      ],
+      "portfolio_score": 58.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-05",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 62,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 8,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 62
+        }
+      ],
+      "portfolio_score": 62.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-06",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-07",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-08",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-09",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-10",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-11",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-12",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-13",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-14",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-15",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-16",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-17",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 65,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 11,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 65
+        }
+      ],
+      "portfolio_score": 65.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-18",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 67,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 13,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 67
+        }
+      ],
+      "portfolio_score": 67.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-19",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 67,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 13,
+          "impact": 15,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 67
+        }
+      ],
+      "portfolio_score": 67.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "id": "activities-20",
+    "result": {
+      "confidence": "HIGH",
+      "display_score": 71,
+      "engine_version": "2.0.0",
+      "individual_scores": [
+        {
+          "duration": 13,
+          "impact": 19,
+          "initiative": 12,
+          "leadership": 14,
+          "progression": 4,
+          "recognition": 3,
+          "time_commitment": 6,
+          "total": 71
+        }
+      ],
+      "portfolio_score": 71.0,
+      "rubric_version": "activity-1.1.0",
+      "warnings": []
+    }
+  }
+]

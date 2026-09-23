@@ -1,0 +1,302 @@
+[
+  {
+    "activities": [
+      {
+        "activity_name": "Project 1",
+        "duration_months": 7,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 10,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-01"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 2",
+        "duration_months": 8,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 20,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-02"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 3",
+        "duration_months": 9,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 30,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-03"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 4",
+        "duration_months": 10,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 40,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-04"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 5",
+        "duration_months": 11,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 50,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-05"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 6",
+        "duration_months": 12,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 60,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-06"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 7",
+        "duration_months": 13,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 70,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-07"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 8",
+        "duration_months": 14,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 80,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-08"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 9",
+        "duration_months": 15,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 90,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-09"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 10",
+        "duration_months": 16,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 100,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-10"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 11",
+        "duration_months": 17,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 110,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-11"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 12",
+        "duration_months": 18,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 120,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-12"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 13",
+        "duration_months": 19,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 130,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-13"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 14",
+        "duration_months": 20,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 140,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-14"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 15",
+        "duration_months": 21,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 150,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-15"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 16",
+        "duration_months": 22,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 160,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-16"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 17",
+        "duration_months": 23,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 170,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-17"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 18",
+        "duration_months": 24,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 180,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-18"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 19",
+        "duration_months": 25,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 190,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-19"
+  },
+  {
+    "activities": [
+      {
+        "activity_name": "Project 20",
+        "duration_months": 26,
+        "hours_per_week": 3,
+        "initiative_level": "STARTED_PROJECT",
+        "leadership_level": "LEAD",
+        "people_impacted": 200,
+        "progression_level": "CLEAR",
+        "recognition_scope": "SCHOOL_LOCAL"
+      }
+    ],
+    "id": "activities-20"
+  }
+]

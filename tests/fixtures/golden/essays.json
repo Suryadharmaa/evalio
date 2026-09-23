@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "essay-01",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-02",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-03",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-04",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-05",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-06",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-07",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-08",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-09",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 193,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-10",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-11",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-12",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-13",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-14",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-15",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-16",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-17",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-18",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-19",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-20",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-21",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-22",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-23",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-24",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-25",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-26",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-27",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-28",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-29",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  },
+  {
+    "id": "essay-30",
+    "result": {
+      "components": {
+        "clarity": 100.0,
+        "compliance": 100.0,
+        "reflection": 95.0,
+        "sentence_variety": 70.0,
+        "specificity": 100.0,
+        "structure": 64.0,
+        "style_hygiene": 100.0,
+        "voice": 68.0
+      },
+      "confidence": "LOW",
+      "display_score": 88,
+      "engine_version": "2.0.0",
+      "issues": [
+        {
+          "evidence": {
+            "largest_paragraph_words": 18
+          },
+          "message": "One paragraph contains more than 45% of the essay.",
+          "rule_id": "ESSAY-005",
+          "score_delta": -10.0,
+          "severity": "MEDIUM",
+          "title": "Extreme paragraph dominance"
+        }
+      ],
+      "label": "Strong",
+      "metrics": {
+        "average_sentence_length": 10.67,
+        "character_count": 194,
+        "flesch_reading_ease": 61.18,
+        "lexical_diversity": 0.875,
+        "median_sentence_length": 10.0,
+        "paragraph_count": 2,
+        "reflection_density": 3.125,
+        "sentence_count": 3,
+        "sentence_length_stddev": 2.49,
+        "specificity_density": 13.281,
+        "word_count": 32
+      },
+      "overall_score": 87.65,
+      "rubric_version": "essay-1.0.0",
+      "triggered_rules": [
+        "ESSAY-005"
+      ]
+    }
+  }
+]

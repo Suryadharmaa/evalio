@@ -1,0 +1,2 @@
+import { RecommendationLibrary } from "@/components/evaluation/recommendation-library";
+export default function RecommendationsPage() { return <div className="mx-auto w-full max-w-5xl px-5 py-12 sm:px-8 lg:px-12"><p className="text-sm font-semibold text-primary">Private workspace</p><h1 className="mt-2 text-4xl font-bold tracking-tight">Recommendation signals</h1><p className="mt-3 max-w-2xl leading-7 text-muted">Measure evidence, relationship context, traits, comparative language, and generic-praise risk. This is not semantic judgment.</p><RecommendationLibrary /></div>; }

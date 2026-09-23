@@ -1,0 +1,22 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { Alert } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/field";
+import { apiError, authenticatedFetch } from "@/lib/api/client";
+
+type Mode = "imports" | "sources" | "rules" | "system";
+
+export function AdminPanel({ mode }: { mode: Mode }) {
+  const [data, setData] = useState<unknown>(null);
+  const [message, setMessage] = useState<string | null>(null);
+  const [runId, setRunId] = useState("");
+  const [busy, setBusy] = useState(false);
+  useEffect(() => { if (mode === "imports") return; const path = mode === "sources" ? "sources/stale" : mode; authenticatedFetch(`/api/v1/admin/${path}`).then(async (response) => { if (!response.ok) throw new Error(await apiError(response)); setData(((await response.json()) as { data: unknown }).data); }).catch((reason: unknown) => setMessage(reason instanceof Error ? reason.message : "Admin data unavailable.")); }, [mode]);
+  async function create(form: FormData) { setBusy(true); setMessage(null); try { const response = await authenticatedFetch("/api/v1/admin/imports", { method: "POST", headers: { "Content-Type": "application/json", "Idempotency-Key": crypto.randomUUID() }, body: JSON.stringify({ import_type: String(form.get("import_type") ?? "COLLEGES"), academic_cycle: String(form.get("academic_cycle") ?? "").trim() || null, rows_read: Number(form.get("rows_read")), rows_valid: Number(form.get("rows_valid")), rows_rejected: Number(form.get("rows_rejected")), diff_summary: {} }) }); if (!response.ok) throw new Error(await apiError(response)); const value = ((await response.json()) as { data: { id: string } }).data; setRunId(value.id); setData(value); setMessage("Import run recorded. Validate it before approval."); } catch (reason) { setMessage(reason instanceof Error ? reason.message : "Import creation failed."); } finally { setBusy(false); } }
+  async function transition(action: "validate" | "approve" | "promote") { if (!runId) return; setBusy(true); setMessage(null); try { const body = action === "validate" ? undefined : JSON.stringify({ confirm: action === "approve" ? "APPROVE" : "PROMOTE" }); const response = await authenticatedFetch(`/api/v1/admin/imports/${runId}/${action}`, { method: "POST", headers: body ? { "Content-Type": "application/json" } : undefined, body }); if (!response.ok) throw new Error(await apiError(response)); setData(((await response.json()) as { data: unknown }).data); setMessage(`${action} completed.`); } catch (reason) { setMessage(reason instanceof Error ? reason.message : `${action} failed.`); } finally { setBusy(false); } }
+  if (mode !== "imports") return <>{message ? <Alert className="mt-8" title="Admin access" tone="danger">{message}</Alert> : null}<Card className="mt-8 p-6"><h2 className="text-xl font-bold">{mode === "sources" ? "Stale source records" : `${mode[0].toUpperCase()}${mode.slice(1)} status`}</h2><pre className="mt-4 max-h-[36rem] overflow-auto whitespace-pre-wrap rounded-lg bg-[var(--surface-muted)] p-4 text-sm">{data ? JSON.stringify(data, null, 2) : "Loading…"}</pre></Card></>;
+  return <><Card className="mt-8 p-6"><form action={create} className="grid gap-5 sm:grid-cols-2"><Input id="import-type" label="Import type" name="import_type" defaultValue="COLLEGES" required /><Input id="academic-cycle" label="Academic cycle" name="academic_cycle" placeholder="2026-2027" /><Input id="rows-read" label="Rows read" name="rows_read" type="number" min="0" defaultValue="0" /><Input id="rows-valid" label="Rows valid" name="rows_valid" type="number" min="0" defaultValue="0" /><Input id="rows-rejected" label="Rows rejected" name="rows_rejected" type="number" min="0" defaultValue="0" /><div className="flex items-end"><Button disabled={busy} type="submit">Create import run</Button></div></form>{message ? <Alert className="mt-5" title="Import status">{message}</Alert> : null}{runId ? <div className="mt-5 flex flex-wrap gap-3"><Button disabled={busy} onClick={() => void transition("validate")} variant="secondary">Validate</Button><Button disabled={busy} onClick={() => void transition("approve")} variant="secondary">Approve</Button><Button disabled={busy} onClick={() => void transition("promote")}>Promote</Button></div> : null}</Card>{data ? <pre className="mt-5 overflow-auto rounded-lg bg-slate-900 p-5 text-sm text-white">{JSON.stringify(data, null, 2)}</pre> : null}</>;
+}
