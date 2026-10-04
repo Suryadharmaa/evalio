@@ -18,6 +18,12 @@ const methods: Record<string, { title: string; version: string; measured: string
   application: { title: "Application Audit", version: "application-1.1.0", measured: "Required and optional material completion, explicit evaluation date, deadlines, and separate quality-evaluation status.", limits: "Completeness never substitutes for material quality; missing college requirements are treated as insufficient data." },
 };
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return Object.keys(methods).map((component) => ({ component }));
+}
+
 export default async function ComponentMethodologyPage({ params }: { params: Promise<{ component: string }> }) {
   const method = methods[(await params).component];
   if (!method) notFound();

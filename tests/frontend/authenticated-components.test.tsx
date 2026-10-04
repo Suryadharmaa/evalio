@@ -6,7 +6,8 @@ import { DashboardOverview } from "@/components/dashboard/dashboard-overview";
 import { ReportManager } from "@/components/report/report-manager";
 import { authenticatedFetch } from "@/lib/api/client";
 
-vi.mock("@/lib/api/client", () => ({
+vi.mock("@/lib/api/client", async (importOriginal) => ({
+  ...await importOriginal<typeof import("@/lib/api/client")>(),
   apiError: vi.fn(async () => "Request failed."),
   authenticatedFetch: vi.fn(),
 }));

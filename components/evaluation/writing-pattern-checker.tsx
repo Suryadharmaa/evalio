@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/field";
 import { StatusBadge } from "@/components/ui/status-badge";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 import styles from "./analysis-workspace.module.css";
 
 type PatternLevel = "NORMAL" | "LOW" | "MEDIUM" | "HIGH" | "INSUFFICIENT_DATA";
@@ -66,7 +66,7 @@ export function WritingPatternChecker() {
     try {
       const submittedText = String(formData.get("text") ?? "").trim();
       if (!submittedText) throw new Error("Paste text before checking its writing patterns.");
-      const response = await fetch("/api/v1/evaluations/writing-patterns", {
+      const response = await apiFetch("/api/v1/evaluations/writing-patterns", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: submittedText }),

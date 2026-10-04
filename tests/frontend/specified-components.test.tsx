@@ -9,7 +9,8 @@ import { ConfidenceBadge } from "@/components/ui/confidence-badge";
 import { RuleIssue } from "@/components/ui/rule-issue";
 import { authenticatedFetch } from "@/lib/api/client";
 
-vi.mock("@/lib/api/client", () => ({
+vi.mock("@/lib/api/client", async (importOriginal) => ({
+  ...await importOriginal<typeof import("@/lib/api/client")>(),
   apiError: vi.fn(async () => "Request failed."),
   authenticatedFetch: vi.fn(),
 }));

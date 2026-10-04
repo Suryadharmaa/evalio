@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { sitePath } from "@/lib/site";
 import { useState } from "react";
 import { safeCollegeImageUrl, safeExternalUrl, safeInternalPath } from "@/lib/utils/safe-url";
 import { cx } from "@/lib/utils/cx";
@@ -55,7 +56,7 @@ export function CampusMedia({ media, name, location, hero = false, kind }: {
         className={cx(styles.campusImage, isLogo && styles.logoImage)}
         fill
         sizes={hero ? "(max-width: 1200px) 100vw, 1152px" : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 384px"}
-        src={imageUrl}
+        src={isLogo ? sitePath(imageUrl) : imageUrl}
         preload={hero}
         unoptimized={isLogo}
         onError={() => setFailedUrl(imageUrl)}

@@ -7,7 +7,7 @@ import { Alert } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input, Select } from "@/components/ui/field";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 
 type Mode = "US_COURSES" | "INTERNATIONAL_RAW";
 const views = ["High School GPA", "Weighted", "Unweighted", "Cumulative", "Percentage", "International"] as const;
@@ -56,7 +56,7 @@ export function GpaToolkit() {
         scale_min: Number(formData.get("scale_min")), scale_max: Number(formData.get("scale_max")),
         international_grades: rows.map((row) => ({ label: row.label.trim(), value: Number(row.grade), weight: Number(row.credits) })),
       };
-      const response = await fetch("/api/v1/calculators/gpa", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+      const response = await apiFetch("/api/v1/calculators/gpa", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
       if (!response.ok) throw new Error(await apiError(response));
       const body = await response.json() as { data: { result: Result } };
       setResult(body.data.result);

@@ -8,7 +8,7 @@ import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { StatusBadge } from "@/components/ui/status-badge";
-import { apiError, authenticatedFetch } from "@/lib/api/client";
+import { apiFetch, apiError, authenticatedFetch } from "@/lib/api/client";
 import styles from "@/components/evaluation/analysis-workspace.module.css";
 
 interface Profile { id: string; profile_name: string }
@@ -72,7 +72,7 @@ export function DashboardOverview() {
         if (testsResponse.ok) setTestingCount(((await testsResponse.json()) as { data: unknown[] }).data.length);
 
         const byType = Object.fromEntries(latest.map((item) => [item.evaluation_type, item.display_score]));
-        const response = await fetch("/api/v1/evaluations/profile-strength", {
+        const response = await apiFetch("/api/v1/evaluations/profile-strength", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

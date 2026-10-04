@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 import { Input, Select, Textarea } from "@/components/ui/field";
 import { ErrorResult, LoadingResult } from "@/components/tools/result-states";
 import { StatusBadge } from "@/components/ui/status-badge";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 import { essayAnalysisFormSchema, firstValidationError } from "@/lib/schemas/forms";
 import styles from "./analysis-workspace.module.css";
 
@@ -87,8 +87,8 @@ export function EssayAnalyzer() {
 
       const promptText = String(formData.get("prompt_text") ?? "").trim() || null;
       const response = file
-        ? await fetch("/api/v1/evaluations/essay/upload", { method: "POST", body: formData })
-        : await fetch("/api/v1/evaluations/essay", {
+        ? await apiFetch("/api/v1/evaluations/essay/upload", { method: "POST", body: formData })
+        : await apiFetch("/api/v1/evaluations/essay", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

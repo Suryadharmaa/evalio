@@ -3,6 +3,8 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { AuthNavigation } from "@/components/auth/auth-navigation";
+import { AuthBoundary } from "@/components/auth/auth-boundary";
+import { sitePath } from "@/lib/site";
 import { NavigationDisclosures } from "@/components/layout/navigation-disclosures";
 import { toolGroups, toolsInGroup } from "@/lib/tools/catalog";
 
@@ -40,7 +42,7 @@ function Logo() {
   return (
     <Link href="/" className="group inline-flex min-h-11 items-center gap-2.5" aria-label="Evalio home">
       <span className="relative size-8 overflow-hidden rounded-lg shadow-sm transition-transform duration-200 group-hover:-translate-y-px" aria-hidden="true">
-        <Image alt="" className="object-cover" fill sizes="32px" src="/evalio-icon.png" />
+        <Image alt="" className="object-cover" fill sizes="32px" src={sitePath("/evalio-icon.png")} />
       </span>
       <span className="editorial-type text-[1.35rem] font-semibold tracking-[-0.025em]">Evalio</span>
     </Link>
@@ -127,7 +129,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
           </details></NavigationDisclosures>
         </div>
       </header>
-      <main className="page-enter" id="main-content">{children}</main>
+      <main className="page-enter" id="main-content"><AuthBoundary>{children}</AuthBoundary></main>
       <footer className="ink-section border-t border-white/10">
         <div className="site-container grid gap-10 py-12 md:grid-cols-[1.5fr_2fr] lg:py-16">
           <div>

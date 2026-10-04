@@ -22,10 +22,37 @@ The Next.js application runs on `http://localhost:3000`. The FastAPI health endp
 is available at `http://localhost:8000/api/v1/health` during standalone local API
 development.
 
-For a Netlify launch, deploy the FastAPI backend separately and set Netlify's
-`EVALIO_API_ORIGIN` to its HTTPS origin. Netlify only hosts the Next.js side of this
-repository; the full environment, migration, and smoke-test checklist is in
-[`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md#netlify-frontend--separately-hosted-fastapi).
+For GitHub Pages, `.github/workflows/pages.yml` builds and publishes a static
+frontend. Supabase handles login/data and FastAPI runs on a separate Python host.
+Follow [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md#github-pages--supabase--fastapi).
+
+Enable **Settings → Pages → Source: GitHub Actions**. Then set these repository
+**Settings → Secrets and variables → Actions → Variables**:
+
+| Variable | Value |
+| --- | --- |
+| `NEXT_PUBLIC_API_ORIGIN` | Your live FastAPI HTTPS origin, e.g. `https://your-api.onrender.com` |
+| `NEXT_PUBLIC_SUPABASE_URL` | Your Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Your Supabase publishable key |
+
+These values are public browser configuration. Backend secrets (`DATABASE_URL`,
+`GEMINI_API_KEY`, Supabase secret key) belong only on the Python host. The workflow
+detects `NEXT_PUBLIC_BASE_PATH` for `/evalio` or a custom domain automatically.
+
+To check the Pages build locally in PowerShell (Supabase values in `.env.local`):
+
+```powershell
+$env:NEXT_PUBLIC_API_ORIGIN="https://your-api.onrender.com"
+$env:NEXT_PUBLIC_BASE_PATH="/evalio"
+npm run build:pages
+npm run preview:pages
+```
+
+The site is generated in `out/`; preview opens at `http://127.0.0.1:4173/evalio/`
+and uses the configured base path automatically. `npm run test:pages` checks
+the exported frontend using synthetic API responses. `npm run start` runs a Next.js server
+and does not preview a static export. Mutable detail links use `/view/?slug=...`
+or `/view/?id=...`; new database records work without rebuilding the site.
 
 ### Scoring engine rollout
 
@@ -198,15 +225,42 @@ The Essay Evaluator at `/tools/essay-evaluator` now combines local writing
 signals with one structured semantic review. The existing deterministic essay
 endpoint and saved historical evaluations retain their previous rubric.
 
-Set a Groq API key in `.env.local` for the FastAPI process:
+Choose one provider in `.env.local` for the FastAPI process. Gemini is now the
+default:
+
+```dotenv
+ESSAY_AI_PROVIDER=gemini
+GEMINI_API_KEY=your-google-gemini-server-side-key
+ESSAY_AI_MODEL=gemini-3.5-flash-lite
+```
+
+For Gemini only, HTTP 429 triggers this ordered fallback using the same Google
+API key: `gemini-3.5-flash-lite` → `gemini-3.1-flash-lite` →
+`gemma-4-26b-a4b-it` → `gemma-4-31b-it`. Each limited model is attempted once,
+and other errors stop the chain. Successful fallback reviews are cached under
+the actual model; Deep Review can reuse that analysis. If every model is limited,
+only local writing signals are returned. Daily quotas vary by project/tier and
+are not hardcoded as guarantees.
+
+To use Groq instead:
 
 ```dotenv
 GROQ_API_KEY=your-server-side-key
-ESSAY_AI_MODEL=openai/gpt-oss-20b
+ESSAY_AI_PROVIDER=groq
 ```
 
-The model setting is optional because `openai/gpt-oss-20b` is the default.
-Never expose the key as a `NEXT_PUBLIC_` variable. Apply migrations, then
+To use Routeway instead:
+
+```dotenv
+ESSAY_AI_PROVIDER=routeway
+ROUTEWAY_API_KEY=your-routeway-server-side-key
+ESSAY_AI_MODEL=gemma-4-26b-a4b-it-chimerax:free
+```
+
+`ESSAY_AI_MODEL` is optional: Gemini defaults to `gemini-3.5-flash-lite`, Groq defaults to `openai/gpt-oss-20b`, and
+Routeway defaults to `gemma-4-26b-a4b-it-chimerax:free`. Never expose either
+key as a `NEXT_PUBLIC_` variable. On a separately hosted FastAPI backend, set
+these variables on that backend, not Netlify. Apply migrations, then
 start the API and frontend in separate terminals:
 
 ```powershell
@@ -225,7 +279,28 @@ The database cache stores the essay hash, versions, local metrics, and structure
 result; it does not store raw essay text. Without an API key or if AI fails,
 the response still contains writing signals and a retry option. The model
 uses [Groq Structured Outputs](https://console.groq.com/docs/structured-outputs)
-with a strict JSON schema.
+with a strict JSON schema for Groq. Gemini uses Google's OpenAI-compatible endpoint
+with structured JSON output. Routeway receives a JSON-only prompt and
+its result must pass the same server-side rubric validation before a score is
+shown. If the selected Routeway free model is unavailable or rate-limited, the
+tool retains local writing signals without inventing a score.
+
+If the provider returns only writing signals, test the configured provider
+with a synthetic essay (one API call; no user essay or key is printed):
+
+```powershell
+
+
+```
+
+
+A Routeway HTTP 429 means the selected model/key has reached a provider limit,
+even if a separate synthetic diagnostic call succeeds later. Evalio does not
+immediately retry 429 responses; it preserves local writing signals and honors
+the provider's numeric `Retry-After` header (or a 60-second UI pause when absent).
+Check the free-model quota/reset in Routeway. For production reliability, choose
+an available plan/model or switch back to Groq explicitly; Evalio never sends an
+essay to a second provider as a silent fallback.
 
 ## Application Evaluator
 

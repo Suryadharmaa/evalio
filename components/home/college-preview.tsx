@@ -1,5 +1,7 @@
 "use client";
 
+import { apiFetch } from "@/lib/api/client";
+
 import { useEffect, useState } from "react";
 import { CollegeCard, type CollegeSummary } from "@/components/college/college-card";
 import { Button } from "@/components/ui/button";
@@ -14,7 +16,7 @@ export function CollegePreview() {
     const controller = new AbortController();
     async function load() {
       try {
-        const response = await fetch("/api/v1/colleges?country=US&page=1&page_size=3", { signal: controller.signal });
+        const response = await apiFetch("/api/v1/colleges?country=US&page=1&page_size=3", { signal: controller.signal });
         if (!response.ok) throw new Error("unavailable");
         const body = await response.json() as { data: CollegeSummary[] };
         if (!controller.signal.aborted) setColleges(body.data);

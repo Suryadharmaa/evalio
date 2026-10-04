@@ -1,5 +1,7 @@
 "use client";
 
+import { apiFetch } from "@/lib/api/client";
+
 import { useEffect, useState, type FormEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/ui/empty-state";
@@ -41,7 +43,7 @@ export function CollegeExplorer() {
       if (q.trim()) params.set("q", q.trim());
       Object.entries(filters).forEach(([key, value]) => { if (value) params.set(key, value); });
       try {
-        const response = await fetch(`/api/v1/colleges?${params}`, { signal: controller.signal });
+        const response = await apiFetch(`/api/v1/colleges?${params}`, { signal: controller.signal });
         if (!response.ok) throw new Error("unavailable");
         const body = await response.json() as CollegeResponse;
         if (!controller.signal.aborted) { setResult(body); setError(false); }

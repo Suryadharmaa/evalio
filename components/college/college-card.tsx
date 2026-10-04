@@ -1,4 +1,6 @@
 import Link from "next/link";
+
+import { recordPath } from "@/lib/site";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { CampusMedia, type CollegeMedia } from "./campus-media";
 import { collegeLabel } from "./college-format";
@@ -27,7 +29,7 @@ export function CollegeCard({ college }: { college: CollegeSummary }) {
     <CampusMedia kind="logo" location={location} media={college.primary_media} name={college.name} />
     <div className={styles.cardBody}>
       <p className={styles.cardType}>{collegeLabel(college.institution_type)}</p>
-      <h3 className={styles.cardName}><Link href={`/colleges/${encodeURIComponent(college.slug)}`}>{college.name}</Link></h3>
+      <h3 className={styles.cardName}><Link href={recordPath("colleges", college.slug)}>{college.name}</Link></h3>
       <p className={styles.cardLocation}>{location || "Location not yet verified"}</p>
       <dl className={styles.cardFacts}>
         <div><dt>Testing</dt><dd>{collegeLabel(college.test_policy)}</dd></div>
@@ -37,7 +39,7 @@ export function CollegeCard({ college }: { college: CollegeSummary }) {
         {college.identity_confidence && college.identity_confidence !== "UNKNOWN" ? <StatusBadge tone="info">{college.identity_confidence} identity confidence</StatusBadge> : <StatusBadge>Verification varies by field</StatusBadge>}
         <span>Source dates in profile</span>
       </div>
-      <Link aria-label={`Explore ${college.name}`} className={styles.cardLink} href={`/colleges/${encodeURIComponent(college.slug)}`}>
+      <Link aria-label={`Explore ${college.name}`} className={styles.cardLink} href={recordPath("colleges", college.slug)}>
         Explore college <span aria-hidden="true">→</span>
       </Link>
     </div>

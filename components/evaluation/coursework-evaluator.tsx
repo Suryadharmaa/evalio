@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Checkbox, Input, Select, Textarea } from "@/components/ui/field";
 import { StatusBadge } from "@/components/ui/status-badge";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 
 interface CourseRow { id: number; course: string; subject: string; grade: string; level: string; major: boolean; }
 interface CourseworkResult {
@@ -50,7 +50,7 @@ export function CourseworkEvaluator() {
         intended_major: String(formData.get("intended_major") ?? "").trim(),
         school_context_notes: String(formData.get("school_context_notes") ?? "").trim() || null,
       };
-      const response = await fetch("/api/v1/evaluations/coursework", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+      const response = await apiFetch("/api/v1/evaluations/coursework", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
       if (!response.ok) throw new Error(await apiError(response));
       setResult(((await response.json()) as { data: { evaluation: CourseworkResult } }).data.evaluation);
     } catch (caught) {

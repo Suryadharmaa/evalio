@@ -38,3 +38,24 @@ test("essay evaluator remains usable at 360px", async ({ page }) => {
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
   expect(overflow).toBe(false);
 });
+
+test("provider rate limit pauses repeat analysis without losing writing signals", async ({ page }) => {
+  let calls = 0;
+  await page.route("**/api/v1/essay-review", async (route) => {
+    calls += 1;
+    await route.fulfill({ json: { data: {
+      status: "partial", message: "Routeway request limit reached. Check the provider's quota and reset time; repeated requests will not help.",
+      retry_after_seconds: 3,
+      metrics: { word_count: 60, sentence_count: 1, paragraph_count: 1, average_words_per_sentence: 60, sentence_variety: signal, vocabulary_diversity: signal, readability: signal, repetition: { label: "Low", repeated_phrases: [], repeated_openings: [] } },
+      meta: { cached: false, ai_calls: 1 },
+    } } });
+  });
+  await page.goto("/tools/essay-evaluator");
+  await page.getByLabel("Essay text").fill(draft);
+  await page.getByRole("button", { name: "Analyze essay" }).click();
+  await expect(page.getByText("Retry available in 3 seconds.")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Try AI analysis again" })).toBeDisabled();
+  await expect(page.getByRole("button", { name: "Analyze essay" })).toBeDisabled();
+  expect(calls).toBe(1);
+  await expect(page.getByRole("button", { name: "Try AI analysis again" })).toBeEnabled({ timeout: 5000 });
+});

@@ -1,5 +1,7 @@
 "use client";
 
+import { recordPath } from "@/lib/site";
+
 import { FormEvent, useCallback, useEffect, useState } from "react";
 
 import { Alert } from "@/components/ui/alert";
@@ -14,7 +16,7 @@ import {
   ScoreCard,
   ToolInputShell,
 } from "@/components/tools";
-import { apiError, authenticatedFetch } from "@/lib/api/client";
+import { apiFetch, apiError, authenticatedFetch } from "@/lib/api/client";
 import styles from "@/components/evaluation/analysis-workspace.module.css";
 
 interface Profile { id: string; profile_name: string }
@@ -104,7 +106,7 @@ export function CollegeEvaluator({ initialCollegeId, initialCollegeName }: { ini
     try {
       const params = new URLSearchParams({ country: "US", page_size: "20" });
       if (query.trim()) params.set("q", query.trim());
-      const response = await fetch(`/api/v1/colleges?${params}`);
+      const response = await apiFetch(`/api/v1/colleges?${params}`);
       if (!response.ok) throw new Error(await apiError(response));
       const rows = ((await response.json()) as { data: College[] }).data;
       setColleges(rows);
@@ -199,7 +201,7 @@ export function CollegeEvaluator({ initialCollegeId, initialCollegeName }: { ini
         <div className="grid gap-5 lg:grid-cols-[1.15fr_0.85fr]"><ScoreBreakdown items={componentItems} title="Component evidence" /><Card className="p-6"><h2 className="text-lg font-extrabold">Planning dimensions</h2><dl className="mt-4 grid gap-4 text-sm">{[["Selectivity risk", result.selectivity_risk], ["Requirements fit", result.requirements_fit], ["Financial fit", result.financial_fit], ["Financial risk", result.financial_risk], ["Data confidence", `${result.confidence} (${result.confidence_score}/100)`]].map(([itemLabel, value]) => <div className="flex items-center justify-between gap-4 border-b border-border pb-3" key={itemLabel}><dt className="text-muted">{itemLabel}</dt><dd className="font-bold text-right">{label(value)}</dd></div>)}</dl></Card></div>
         <Card className="p-6"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="text-lg font-extrabold">College data context</h2><StatusBadge tone={result.source_freshness === "CURRENT" ? "success" : result.source_freshness === "STALE" ? "danger" : "warning"}>{label(result.source_freshness)}</StatusBadge></div><dl className="mt-4 grid gap-4 text-sm sm:grid-cols-2 lg:grid-cols-4">{Object.entries(result.college_data_cycles).map(([name, cycle]) => <div key={name}><dt className="text-muted">{label(name)}</dt><dd className="data-type mt-1 font-bold">{cycle || "Not available"}</dd></div>)}</dl><p className="mt-4 text-xs text-muted">Evaluated {result.evaluation_date}. Oldest critical source: {result.oldest_critical_source_at ? new Date(result.oldest_critical_source_at).toLocaleDateString() : "not available"}.</p></Card>
         <details className={styles.disclosure}><summary>Financial evidence <StatusBadge>{result.financial_confidence} confidence</StatusBadge></summary>{result.financial_reasons.length ? <ol className={styles.reasonList}>{result.financial_reasons.map((reason, index) => <li key={`${index}-${reason}`}>{reason}</li>)}</ol> : <p className="p-5 text-sm text-muted">No financial explanation was returned. Missing financial evidence is not a zero-cost estimate.</p>}</details>
-        <details className={styles.disclosure}><summary>Triggered rules <span className="text-sm font-normal text-muted">{result.triggered_rules.length} rules</span></summary><div className="p-6">{result.triggered_rules.length ? <ul className="flex flex-wrap gap-2">{result.triggered_rules.map((rule) => <li key={rule}><StatusBadge>{rule}</StatusBadge></li>)}</ul> : <p className="text-sm text-muted">No named college rules were triggered.</p>}<p className="mt-5 text-sm text-muted">Inspect thresholds and limitations in the college methodology. Scores are internal planning signals.</p><div className="mt-4 flex flex-wrap gap-3"><ButtonLink href="/methodology/college" variant="secondary">Inspect the rules →</ButtonLink><ButtonLink href={`/colleges/${result.college.slug}#sources`} variant="ghost">View college sources →</ButtonLink></div></div></details>
+        <details className={styles.disclosure}><summary>Triggered rules <span className="text-sm font-normal text-muted">{result.triggered_rules.length} rules</span></summary><div className="p-6">{result.triggered_rules.length ? <ul className="flex flex-wrap gap-2">{result.triggered_rules.map((rule) => <li key={rule}><StatusBadge>{rule}</StatusBadge></li>)}</ul> : <p className="text-sm text-muted">No named college rules were triggered.</p>}<p className="mt-5 text-sm text-muted">Inspect thresholds and limitations in the college methodology. Scores are internal planning signals.</p><div className="mt-4 flex flex-wrap gap-3"><ButtonLink href="/methodology/college" variant="secondary">Inspect the rules →</ButtonLink><ButtonLink href={recordPath("colleges", result.college.slug) + "#sources"} variant="ghost">View college sources →</ButtonLink></div></div></details>
       </div> : null}
     </section>
   </>;

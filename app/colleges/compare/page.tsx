@@ -1,6 +1,6 @@
-import { redirect } from "next/navigation";
+import { Suspense } from "react";
+import { ClientRedirect } from "@/components/routing/client-redirect";
 
-export default async function CollegeComparePage({ searchParams }: { searchParams: Promise<{ college?: string }> }) {
-  const { college } = await searchParams;
-  redirect(college ? `/tools/application-evaluator?college=${encodeURIComponent(college)}` : "/tools/application-evaluator");
+export default function CollegeComparePage() {
+  return <Suspense><ClientRedirect to="/tools/application-evaluator" preserveCollege /></Suspense>;
 }

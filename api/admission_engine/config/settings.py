@@ -26,8 +26,11 @@ class Settings(BaseSettings):
     ALLOWED_HOSTS: str = ""
     ALLOWED_ORIGINS: str = ""
     SCORING_ENGINE_VERSION: Literal["v1", "v2"] = "v1"
+    ESSAY_AI_PROVIDER: Literal["groq", "routeway", "gemini"] = "gemini"
     GROQ_API_KEY: SecretStr | None = None
-    ESSAY_AI_MODEL: str = "openai/gpt-oss-20b"
+    ROUTEWAY_API_KEY: SecretStr | None = None
+    GEMINI_API_KEY: SecretStr | None = None
+    ESSAY_AI_MODEL: str | None = None
 
     @property
     def allowed_origins(self) -> list[str]:

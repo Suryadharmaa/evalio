@@ -1,5 +1,7 @@
 "use client";
 
+import { apiFetch } from "@/lib/api/client";
+
 import { useState } from "react";
 import { Alert } from "@/components/ui/alert";
 import { Button, ButtonLink } from "@/components/ui/button";
@@ -18,7 +20,7 @@ export function ActivityDescriptionAnalyzer() {
   async function analyze(formData: FormData) {
     setBusy(true); setError(null); setResult(null);
     try {
-      const response = await fetch("/api/v1/evaluations/activity-description", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ position_title: formData.get("position_title"), organization: formData.get("organization"), description: formData.get("description"), character_limit: 150 }) });
+      const response = await apiFetch("/api/v1/evaluations/activity-description", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ position_title: formData.get("position_title"), organization: formData.get("organization"), description: formData.get("description"), character_limit: 150 }) });
       if (!response.ok) throw new Error("Unable to analyze this description.");
       setResult(((await response.json()) as { data: { evaluation: Result } }).data.evaluation);
     } catch (error) { setError(error instanceof Error ? error.message : "Analysis failed."); }

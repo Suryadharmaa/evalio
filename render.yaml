@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: evalio-api
+    runtime: python
+    plan: free
+    autoDeployTrigger: off
+    buildCommand: pip install uv && uv sync --frozen --no-dev
+    startCommand: uv run --no-sync uvicorn api.index:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: ALLOWED_HOSTS
+        fromService:
+          type: web
+          name: evalio-api
+          envVarKey: RENDER_EXTERNAL_HOSTNAME
+      - key: ALLOWED_ORIGINS
+        value: https://suryadharmaa.github.io
+      - key: IP_HASH_SALT
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_JWKS_URL
+        sync: false
+      - key: ESSAY_AI_PROVIDER
+        value: gemini
+      - key: ESSAY_AI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: GEMINI_API_KEY
+        sync: false

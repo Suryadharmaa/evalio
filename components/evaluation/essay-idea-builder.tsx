@@ -7,7 +7,7 @@ import { Alert } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Checkbox, Input, Select, Textarea } from "@/components/ui/field";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 import styles from "./analysis-workspace.module.css";
 
 interface EssayIdea {
@@ -67,7 +67,7 @@ export function EssayIdeaBuilder() {
         people_or_places: lines(formData, "people_or_places"),
         lessons_or_changes: lines(formData, "lessons_or_changes"),
       };
-      const response = await fetch("/api/v1/essay-ideas/build", {
+      const response = await apiFetch("/api/v1/essay-ideas/build", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ErrorResult, LoadingResult, ScoreBreakdown, ScoreCard, ToolInputShell } from "@/components/tools";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Input, Textarea } from "@/components/ui/field";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 import styles from "./analysis-workspace.module.css";
 
 interface Result { display_score: number; components: Record<string, number>; triggered_rules: string[]; confidence: "HIGH" | "MEDIUM" | "LOW"; engine_version: string; rubric_version: string }
@@ -24,7 +24,7 @@ export function LorEvaluator() {
     setBusy(true); setResult(null); setError(null);
     try {
       const months = String(form.get("months") ?? "");
-      const response = await fetch("/api/v1/evaluations/lor", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text, recommender_role: String(form.get("role") ?? "").trim() || null, relationship_duration_months: months === "" ? null : Number(months), instructional_context: String(form.get("context") ?? "").trim() || null, save: false }) });
+      const response = await apiFetch("/api/v1/evaluations/lor", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text, recommender_role: String(form.get("role") ?? "").trim() || null, relationship_duration_months: months === "" ? null : Number(months), instructional_context: String(form.get("context") ?? "").trim() || null, save: false }) });
       if (!response.ok) throw new Error(await apiError(response));
       setResult(((await response.json()) as { data: { evaluation: Result } }).data.evaluation);
     } catch (reason) { setError(reason instanceof Error ? reason.message : "Recommendation analysis unavailable."); }

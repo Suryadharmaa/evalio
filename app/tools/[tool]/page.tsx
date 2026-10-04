@@ -11,6 +11,8 @@ interface ToolPageProps {
   params: Promise<{ tool: string }>;
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return toolCatalog.map((tool) => ({ tool: tool.slug }));
 }

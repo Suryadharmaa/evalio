@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 import { Input, Select, Textarea } from "@/components/ui/field";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { ErrorResult, LoadingResult, ToolInputShell } from "@/components/tools";
-import { apiError } from "@/lib/api/client";
+import { apiFetch, apiError } from "@/lib/api/client";
 
 interface FrameworkItem {
   item_type: "USER_EVIDENCE" | "SENTENCE_SHELL" | "WRITING_PROMPT";
@@ -68,7 +68,7 @@ export function LorBuilder() {
         academic_evidence: String(formData.get("academic_evidence") ?? "").trim() || null,
         endorsement_strength: formData.get("endorsement_strength"),
       };
-      const response = await fetch("/api/v1/lor/build", {
+      const response = await apiFetch("/api/v1/lor/build", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

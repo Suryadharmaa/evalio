@@ -1,5 +1,7 @@
 "use client";
 
+import { apiFetch } from "@/lib/api/client";
+
 import { useEffect, useState, type ReactNode } from "react";
 import { Alert } from "@/components/ui/alert";
 import { Button, ButtonLink } from "@/components/ui/button";
@@ -49,7 +51,7 @@ export function CollegeDetailView({ slug }: { slug: string }) {
   const [activeSection, setActiveSection] = useState("overview");
   useEffect(() => {
     const controller = new AbortController();
-    void fetch(`/api/v1/colleges/${encodeURIComponent(slug)}`, { signal: controller.signal }).then(async (response) => {
+    void apiFetch(`/api/v1/colleges/${encodeURIComponent(slug)}`, { signal: controller.signal }).then(async (response) => {
       if (!response.ok) throw new Error(response.status === 404 ? "College not found." : "College data is temporarily unavailable.");
       const data = ((await response.json()) as { data: College }).data;
       if (!controller.signal.aborted) setCollege(data);

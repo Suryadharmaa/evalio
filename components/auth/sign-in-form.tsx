@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/field";
 import { createSupabaseBrowserClient } from "@/lib/auth/browser";
 import { safeInternalPath } from "@/lib/utils/safe-url";
+import { sitePath } from "@/lib/site";
 import { firstValidationError, signInFormSchema } from "@/lib/schemas/forms";
 
 export function SignInForm({ nextPath }: { nextPath?: string }) {
@@ -29,10 +30,10 @@ export function SignInForm({ nextPath }: { nextPath?: string }) {
         const { error } = await client.auth.signInWithPassword({ email, password });
         if (error) setMessage(error.message); else router.push(destination);
       } else if (mode === "signup") {
-        const { error } = await client.auth.signUp({ email, password, options: { emailRedirectTo: `${window.location.origin}${destination}` } });
+        const { error } = await client.auth.signUp({ email, password, options: { emailRedirectTo: `${window.location.origin}${sitePath(destination)}` } });
         setMessage(error ? error.message : "Account created. Check your email if confirmation is required.");
       } else {
-        const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: `${window.location.origin}${destination}` } });
+        const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: `${window.location.origin}${sitePath(destination)}` } });
         setMessage(error ? error.message : "Check your email for a secure sign-in link.");
       }
     } catch (error) { setMessage(error instanceof Error ? error.message : "Unable to start sign in."); }

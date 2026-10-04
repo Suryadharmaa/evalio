@@ -23,12 +23,12 @@ for (const width of [360, 390, 768, 1024, 1440]) {
       // inline style attributes; retain every other warning/error here.
       if ((message.type() === "error" || message.type() === "warning") && !text.includes("Applying inline style violates")) errors.push(text);
     });
-    for (const route of ["/", "/colleges", "/colleges/example-college", "/tools/essay-evaluator", "/tools/writing-pattern-checker", "/tools/application-evaluator", "/tools/gpa", "/tools/coursework-evaluator", "/tools/lor-builder", "/tools/lor-evaluator", "/tools/scholarships", "/dashboard"]) {
+    for (const route of ["/", "/colleges", "/colleges/view?slug=example-college", "/tools/essay-evaluator", "/tools/writing-pattern-checker", "/tools/application-evaluator", "/tools/gpa", "/tools/coursework-evaluator", "/tools/lor-builder", "/tools/lor-evaluator", "/tools/scholarships", "/dashboard"]) {
       await page.goto(route);
       await expect(page.locator("main")).toBeVisible();
       if (route === "/") await expect(page.getByRole("link", { name: "Explore Example College", exact: true })).toBeVisible();
       expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth), route).toBeLessThanOrEqual(1);
-      if (route === "/" || (width === 1440 && route === "/tools/essay-evaluator") || (width === 390 && route === "/colleges/example-college")) await page.screenshot({ path: testInfo.outputPath(`${route === "/" ? "home" : "product"}-${width}.png`), fullPage: true, caret: "initial" });
+      if (route === "/" || (width === 1440 && route === "/tools/essay-evaluator") || (width === 390 && route === "/colleges/view?slug=example-college")) await page.screenshot({ path: testInfo.outputPath(`${route === "/" ? "home" : "product"}-${width}.png`), fullPage: true, caret: "initial" });
       if (route === "/") await page.screenshot({ path: testInfo.outputPath(`hero-${width}.png`), caret: "initial" });
     }
     expect(errors).toEqual([]);
