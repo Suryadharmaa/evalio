@@ -80,7 +80,8 @@ def evaluate_coursework_v2(request: CourseworkRequestV2) -> CourseworkEvaluation
         rules.append(_rule("RIGOR2-005", "Major Preparation Gap", "Configured program prerequisites are unmet", "Major Preparation is GAP; general Course Rigor is unchanged.", {}, RuleSeverity.HIGH))
     values = {"challenge": float(challenge), "core_coverage": float(coverage), "advanced_utilization": advanced, "progression": progression}
     weighted = weighted_result(values, COURSEWORK_V2_WEIGHTS)
-    assert weighted.score is not None
+    if weighted.score is None:
+        raise ValueError("Coursework V2 weighted score could not be computed")
     confidence = ConfidenceV2.from_score(75 if request.advanced_opportunities is None else 100)
     components = {name: ComponentResult(name=name, score=value, weight=weighted.effective_weights.get(name), weighted_value=None if value is None else round_internal(value * weighted.effective_weights[name]), status=EvaluationStatus.COMPLETE if value is not None else EvaluationStatus.NOT_APPLICABLE) for name, value in values.items()}
     return CourseworkEvaluationV2(rubric_version=V2_RUBRIC_VERSIONS["coursework"], overall_score=weighted.score, display_score=round_display(weighted.score), components=components, triggered_rules=tuple(rules), confidence=confidence, evaluation_date=request.evaluation_date, major_preparation=major, effective_weights=weighted.effective_weights)
