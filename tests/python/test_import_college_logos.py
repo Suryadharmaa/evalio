@@ -65,6 +65,12 @@ def test_asset_validator_accepts_safe_svg_and_reports_dimensions() -> None:
     assert validate_asset(data, ".svg", "image/svg+xml") == ("image/svg+xml", 180, 64)
 
 
+def test_asset_validator_rejects_svg_dtd_or_entity() -> None:
+    data = b'<!DOCTYPE svg [<!ENTITY unsafe "text">]><svg>&unsafe;</svg>'
+    with pytest.raises(ValueError, match="DTD and entity"):
+        validate_asset(data, ".svg", "image/svg+xml")
+
+
 def test_media_parser_accepts_local_verified_logo(tmp_path: Path) -> None:
     csv_path = tmp_path / "logos.csv"
     csv_path.write_text(
