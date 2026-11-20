@@ -7,6 +7,7 @@ import weakref
 from collections import OrderedDict
 from typing import Any
 from urllib.error import HTTPError
+from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 from sqlalchemy import select
@@ -181,7 +182,12 @@ def _provider_request(
         }
         headers.pop("Authorization")
         headers["x-goog-api-key"] = api_key
-    request = Request(
+    parsed_endpoint = urlsplit(endpoint)
+    if (parsed_endpoint.scheme != "https" or parsed_endpoint.hostname not in {
+        "generativelanguage.googleapis.com", "api.groq.com", "api.routeway.ai"
+    } or parsed_endpoint.username is not None or parsed_endpoint.password is not None):
+        raise ValueError("AI provider endpoint is not an approved HTTPS origin")
+    request = Request(  # noqa: S310 - validated provider host and HTTPS scheme above
         endpoint,
         data=json.dumps(body).encode("utf-8"),
         headers=headers,
@@ -336,14 +342,16 @@ async def review_essay(essay: str, *, refresh: bool = False) -> dict[str, object
                     continue
                 result = await _review_essay_model(essay, refresh=False, model=model)
                 meta = result["meta"]
-                assert isinstance(meta, dict)
+                if not isinstance(meta, dict):
+                    raise ValueError("AI review metadata must be an object")
                 meta["fallback_used"] = model != primary
                 return result
     calls = 0
     for model in models:
         result = await _review_essay_model(essay, refresh=refresh, model=model)
         meta = result["meta"]
-        assert isinstance(meta, dict)
+        if not isinstance(meta, dict):
+            raise ValueError("AI review metadata must be an object")
         calls += int(meta["ai_calls"])
         meta["ai_calls"] = calls
         meta["fallback_used"] = model != primary
