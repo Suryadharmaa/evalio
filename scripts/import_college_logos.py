@@ -156,8 +156,11 @@ def validate_asset(data: bytes, extension: str, declared_type: str) -> tuple[str
     width: int | None = None
     height: int | None = None
     if extension == ".svg":
+        lower_xml = data.lower()
+        if b"<!doctype" in lower_xml or b"<!entity" in lower_xml:
+            raise ValueError("SVG DTD and entity declarations are not allowed")
         try:
-            root = ET.fromstring(data)
+            root = ET.fromstring(data)  # noqa: S314 - DTD/entities rejected; max input 5 MB
         except ET.ParseError as error:
             raise ValueError("invalid SVG XML") from error
         if root.tag.rsplit("}", 1)[-1].lower() != "svg":
@@ -193,6 +196,10 @@ def download_asset(
 ) -> tuple[int, str, str, int | None, int | None, Path]:
     if not row.download_url or not row.repo_path:
         raise ValueError("row has no approved download")
+    parsed_download = urlparse(row.download_url)
+    if (parsed_download.scheme != "https" or parsed_download.hostname not in ALLOWED_HOSTS
+            or parsed_download.username is not None or parsed_download.password is not None):
+        raise ValueError("download URL must use an approved HTTPS Wikimedia host")
     destination = (repo_root / row.repo_path).resolve()
     approved_root = (repo_root / "public" / "college-logos").resolve()
     if destination.parent != approved_root:
@@ -223,7 +230,7 @@ def download_asset(
         opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
         for attempt in range(2):
             try:
-                request = urllib.request.Request(
+                request = urllib.request.Request(  # noqa: S310 - allowlisted HTTPS URL checked above
                     urls[min(attempt, 1)],
                     headers={"User-Agent": "EvalioCollegeLogoImporter/2.0 (+local curated asset import)"},
                 )
@@ -243,7 +250,7 @@ def download_asset(
                         f"{digest[0]}/{digest[:2]}/{quote(filename)}/"
                         f"500px-{quote(filename)}.png"
                     )
-                    thumbnail_request = urllib.request.Request(
+                    thumbnail_request = urllib.request.Request(  # noqa: S310 - fixed HTTPS Wikimedia host
                         thumbnail_url,
                         headers={
                             "User-Agent": "EvalioCollegeLogoImporter/2.0 "

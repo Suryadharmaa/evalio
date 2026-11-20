@@ -5,6 +5,7 @@ import json
 from typing import Any
 from unittest.mock import patch
 from urllib.error import HTTPError
+from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 from pydantic import ValidationError
@@ -51,7 +52,12 @@ async def main() -> None:
             return body
 
     def observing_urlopen(request: Request, *, timeout: int) -> RecordingResponse:
-        return RecordingResponse(urlopen(request, timeout=timeout))
+        parts = urlsplit(request.full_url)
+        if parts.scheme != "https" or parts.hostname not in {
+            "generativelanguage.googleapis.com", "api.groq.com", "api.routeway.ai"
+        }:
+            raise ValueError("Diagnostic request target must be an approved HTTPS provider")
+        return RecordingResponse(urlopen(request, timeout=timeout))  # noqa: S310 - verified provider URL
 
     try:
         with patch.object(essay_review, "urlopen", observing_urlopen):

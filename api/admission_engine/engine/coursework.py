@@ -54,7 +54,8 @@ def evaluate_coursework(payload: CourseworkEvaluationRequest) -> CourseworkEvalu
         advanced_opportunities=payload.advanced_courses_available,
         progression=progression, major_preparation=major,
     ))
-    assert raw is not None
+    if raw is None:
+        raise ValueError("Coursework rigor score could not be computed")
     no_penalty = payload.advanced_courses_available == 0
     context = payload.school_context_notes or (
         "No advanced courses are available at the school." if no_penalty

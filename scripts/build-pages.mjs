@@ -1,15 +1,30 @@
 import { createHash } from "node:crypto";
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { resolve, join, relative, sep } from "node:path";
 import { spawnSync } from "node:child_process";
 
 const require = createRequire(import.meta.url);
 require("@next/env").loadEnvConfig(process.cwd(), false);
-const result = spawnSync(process.execPath, [require.resolve("next/dist/bin/next"), "build"], {
-  stdio: "inherit",
-  env: { ...process.env, EVALIO_STATIC_EXPORT: "1" },
-});
+// Next.js static export does not support Proxy, whereas our server build needs
+// the per-request nonce Proxy. Stage it aside only for this isolated export build
+// and restore it even if the build fails. Do not run two builds in one worktree.
+const proxyPath = resolve("proxy.ts");
+const stagedProxyPath = resolve(".evalio-proxy.staged-for-static-export");
+if (existsSync(stagedProxyPath)) {
+  throw new Error("Staged proxy file already exists; restore it before building.");
+}
+const needsStaging = existsSync(proxyPath);
+if (needsStaging) renameSync(proxyPath, stagedProxyPath);
+let result;
+try {
+  result = spawnSync(process.execPath, [require.resolve("next/dist/bin/next"), "build"], {
+    stdio: "inherit",
+    env: { ...process.env, EVALIO_STATIC_EXPORT: "1" },
+  });
+} finally {
+  if (needsStaging) renameSync(stagedProxyPath, proxyPath);
+}
 if (result.error) throw result.error;
 if (result.status !== 0) process.exit(result.status ?? 1);
 
