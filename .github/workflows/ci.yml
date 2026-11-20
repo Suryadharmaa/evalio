@@ -34,3 +34,13 @@ jobs:
       - run: npm audit --audit-level=low
       - run: uvx pip-audit
       - run: npm run build
+      # Verify the second hosting mode with synthetic *public* values only.
+      # GitHub Pages has no server-side Proxy: it uses script-hash CSP in exported HTML.
+      - name: Verify static Pages export and browser behavior
+        env:
+          NEXT_PUBLIC_API_ORIGIN: https://api.example.org
+          NEXT_PUBLIC_SUPABASE_URL: https://evalio-ci.supabase.co
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: sb_publishable_ci_synthetic
+        run: |
+          npm run build:pages
+          npm run test:pages
